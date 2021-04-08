@@ -1,20 +1,46 @@
 h1{
     color: purple;
-    background-color: plum;
+    float:left;
+   // background-color: plum;
+}
+
+//Burger menu
+
+#burger{
+    float:right;
+    margin-right:2vw;
+    margin-top:1vh;
+}
+
+.bar1, .bar2, .bar3{
+ width:25px;
+ height: 5px;
+ background-color: rgb(102, 16, 83);
+ margin:6px 0 ;
 }
 
 footer{
-    background-color: pink;
+   // background-color: pink;
     color:rebeccapurple;
-    bottom: 0;
+    bottom:0%;
    width: 100%;
    height: 2.5rem; 
    font-weight:bold;
    padding-left:10px;
 }
 
+
+
 #menu{
-    
-    font-size:3vw;
-    color:purple;
+font-family:Arial, Helvetica, sans-serif;
+height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
