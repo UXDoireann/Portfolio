@@ -8,16 +8,40 @@ h1{
 
 #burger{
     float:right;
-    margin-right:2vw;
-    margin-top:1vh;
+    margin-right:5vw;
+    margin-top:3vh;
+    
 }
 
 .bar1, .bar2, .bar3{
- width:25px;
- height: 5px;
- background-color: rgb(102, 16, 83);
- margin:6px 0 ;
+ width:40px;
+ height: 2.5px;
+ background-color: rgb(43, 6, 14);
+ margin:8px 0 ;
+ transition: 0.8s;
+transition-timing-function: ease-in;
 }
+
+#burger:hover{
+  .bar1{width:35px;
+        transition: 0.8s;
+        transition-timing-function:ease-in-out;
+}
+.bar2{
+  width:30px;
+  margin-left:10px;
+  transition: 0.8s;
+  transition-timing-function:ease-in-out;
+}
+
+.bar3{
+  width:25px;
+  transition: 0.8s;
+  transition-timing-function:ease-in-out;
+}
+}
+
+
 
 footer{
    // background-color: pink;
@@ -39,7 +63,7 @@ height: 100%;
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #111;
+  background-color: rgb(240, 191, 237);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
