@@ -1,5 +1,5 @@
 
-import {openNav} from './js/nav.js'
+import {openNav} from './js/Nav.js'
 
 //Event Listener for Menu
 document.getElementById('burger').addEventListener('click', openNav);
