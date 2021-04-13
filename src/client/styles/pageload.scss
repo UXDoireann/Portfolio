@@ -1,0 +1,38 @@
+.page_load{
+    -webkit-animation-name:intro;
+    animation-name:intro;
+    -webkit-animation-duration:5s;
+    animation-duration:5s;
+
+}
+
+@keyframes intro{
+    from{
+        opacity:1;
+        background-color: plum;
+        width:100vw;
+        height:100vh;
+        color:purple;
+    }
+    to{
+        opacity:0;
+    }
+}
+
+//slide in text on load
+
+.title{
+    -webkit-animation-name:title;
+    animation-name:title;
+    -webkit-animation-duration:6s;
+    animation-duration:6s;
+}
+
+@keyframes title{
+    from{
+        margin-left:-100%;
+    }
+    to{
+        margin-left:2%;
+    }
+}

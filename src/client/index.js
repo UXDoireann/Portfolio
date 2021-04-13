@@ -10,6 +10,7 @@ import './styles/cv.scss'
 import './styles/index.scss'
 import './styles/projects.scss'
 import './styles/menu.scss'
+import './styles/pageload.scss'
 
 export{openNav}
 

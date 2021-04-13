@@ -6,14 +6,7 @@ const openNav = ()=>{
     burger.classList.remove("burger_menu");
    const menu = document.getElementById('menu');
    menu.classList.toggle("menu_out");
-  /*  menu.style.width = "300px";
-    menu.style.display = "block";
-    menu.style.color = "white";
-    menu.style.textDecoration ="none";
-    menu.style.fontSize = "25px";
-    menu.style.padding = "8px 8px 8px 32px";
-    menu.style.transition = "0.4s";
-    menu.style.transitionTimingFunction = "ease-in-out";*/
+ 
    
 }
 
