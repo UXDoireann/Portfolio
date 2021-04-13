@@ -1,0 +1,99 @@
+//Burger menu
+
+#burger{
+    float:right;
+    margin-right:5vw;
+    margin-top:3vh;
+    position:relative;
+    z-index:9;
+
+    
+}
+
+.bar1, .bar2, .bar3{
+ width:40px;
+ height: 2.5px;
+ background-color: rgb(138, 32, 132);
+ margin:8px 0 ;
+ transition: 0.8s;
+transition-timing-function: ease-in;
+}
+
+//On hover movement of burger menu
+.burger_menu:hover{
+    .bar1{width:35px;
+          transition: 0.8s;
+          transition-timing-function:ease-in-out;
+  }
+  .bar2{
+    width:30px;
+    margin-left:10px;
+    transition: 0.8s;
+    transition-timing-function:ease-in-out;
+  }
+  
+  .bar3{
+    width:25px;
+    transition: 0.8s;
+    transition-timing-function:ease-in-out;
+  }
+  }
+
+  //Transformation of burger menu to cross when clicked
+.change {
+  
+    .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+    width:30px;
+  }
+  
+ 
+   .bar2 {
+    opacity: 0;
+  }
+  
+
+  .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+    width:30px;
+  }
+  }
+
+  //Slide out menu
+  //off-screen
+  .menu{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    text-decoration:none;
+    height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: rgb(240, 191, 237);
+      overflow-x: hidden;
+      transition: 0.9s;
+      transition-timing-function: ease-in-out;
+      padding-top: 60px;
+    }
+    
+    //on-screen
+    .menu_out{
+      width:300px;
+      display:block;
+      color:white;
+      text-decoration: none;
+      font-size: 25px;
+      padding: 8px 8px 8px 8px;
+      transition: 0.4s;
+      transition-timing-function:ease-in-out;
+    
+    }
+    
+    a{
+      text-decoration: none;
+      color:white;
+    }
