@@ -7,22 +7,63 @@ h1{
 
 
 
+/*#page_wrapper{
+   -webkit-animation: fullpage 2s forwards;
+   -o-animation: fullpage 2s forwards;
+   animation: fullpage2s forwards;
+   animation-delay: 5s;
+   
+   
+}
 
+@keyframes fullpage{
+
+   0%{
+      opacity:0;
+
+   }
+
+   100%{
+      margin-top:0;
+      opacity:1;
+      height:100%;
+      width:100%;
+
+   }
+
+}
+
+*/
 
 
 
 
 footer{
-   // background-color: pink;
-    color:rebeccapurple;
-    bottom:0%;
-    position:fixed;
+  
+   color:#1978d1;
+    bottom:0;
+   position:absolute;
    width: 100%;
-   height: 2.5rem; 
-   font-weight:bold;
+   height: 2rem; 
    padding-left:10px;
-   font-family:sans-serif;
+   font-family:'Poppins';
+   -webkit-animation: footer 2s forwards;
+   -o-animation: footer 2s forwards;
+   animation: footer 2s forwards;
+   animation-delay: 5s;
 }
 
+
+ 
+ 
+ @keyframes footer{
+     0%{
+         opacity:0;
+     }
+     100%{
+         opacity:1;
+        
+     }
+ }
 
 
