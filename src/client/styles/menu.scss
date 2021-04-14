@@ -12,7 +12,8 @@
 
 .bar1, .bar2, .bar3{
  width:40px;
- height: 2.5px;
+ height: 4px;
+ border-radius:3px;
  background-color:#e91e63;
  margin:8px 0 ;
  transition: 0.8s;
@@ -49,6 +50,7 @@ transition-timing-function: ease-in;
     -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
     transform: rotate(-45deg) translate(-9px, 6px) ;
     width:30px;
+    background-color:white;
   }
   
  
@@ -61,6 +63,7 @@ transition-timing-function: ease-in;
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
     width:30px;
+    background-color:white;
   }
   }
 
@@ -85,7 +88,7 @@ transition-timing-function: ease-in;
     
     //on-screen
     .menu_out{
-      width:300px;
+      //width:300px;
       display:block;
       color:white;
       font-family:'Poppins';
@@ -96,8 +99,49 @@ transition-timing-function: ease-in;
       transition-timing-function:ease-in-out;
     
     }
+
+    @media(max-width:599px){
+
+      .menu_out{
+     width:300px;
+      }
+  }
+  
+      @media(min-width:600px)and(max-width:1199px){
+
+       .menu_out{
+        width:600px;
+       }
+        
+      }
+  
+          @media(min-width:1200px){
+
+            .menu_out{
+            width:850px;
+            }
+  
+  
+  
+    }
+  
+      
+  
+    
     
     a{
       text-decoration: none;
       color:white;
+      margin-left:50px;
+      font-size:30px;
+      transition: 0.5s;
+      transition-timing-function: ease-out;
+    }
+
+    a:hover{
+      font-size:35px;
+      color:rgb(185, 218, 240);
+      text-decoration: underline;
+      transition: 0.5s;
+     transition-timing-function:ease-in;
     }
