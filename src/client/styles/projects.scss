@@ -1,7 +1,7 @@
 
  $shadow:10px 20px 20px 5px rgb(141, 104, 138);
 
- .project_card{
+ .project_parent{
      box-shadow:$shadow;
      border-radius: 15px;
  }
@@ -57,20 +57,64 @@
     @media(min-width:1200px){
 
         
-            
-            
-    
-            #fly_ux{
-                background-image:url("../media/flyux1.png") ;
-                background-size:cover;
-                background-repeat:no-repeat;
+            .project_parent{
                 margin-top:8vh;
                margin-left:80px;
                width:30vw;
                height:30vw;
                position:fixed;
+               overflow: hidden;
+
+            }
+            
+    
+            .flyux{
+                height:100%;
+                width:100%;
+                z-index:-1;
+
+                background-image:url("../media/flyux1.png") ;
+                background-size:cover;
+                background-repeat:no-repeat; 
+                transition: all .5s; 
               
-              
+            }
+
+            #project_title{
+                font-family:Poppins;
+                color:#e91e63;
+                font-size:30px;
+                background-color: rgb(238, 225, 236);
+                z-index:9; 
+                float:left;
+                position:absolute;
+                bottom:0;
+               
+                padding-left:2vw;
+               
+                width:100%;
+            }
+
+            #project_details{
+                font-family:Poppins;
+                display:none;
+                font-size:5px;
+                transition: all .5s;
+                z-index:1;
+                overflow:hidden;
+            }
+
+            .project_title:hover .project_details{
+                display:block
+            }
+
+            .project_title:hover .project_title{
+                position:relative;
+            }
+
+            .project_parent:hover .flyux,
+            .project_parent:focus .flyux{
+                transform:scale(1.2);
             }
            
         
