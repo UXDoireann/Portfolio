@@ -77,10 +77,11 @@
                 background-size:cover;
                 background-repeat:no-repeat; 
                 transition: all .5s; 
+                
               
             }
 
-            #project_title{
+            .project_title{
                 font-family:Poppins;
                 color:#e91e63;
                 font-size:30px;
@@ -89,28 +90,51 @@
                 float:left;
                 position:absolute;
                 bottom:0;
-               
-                padding-left:2vw;
-               
-                width:100%;
+               padding-left:2vw;
+               width:100%;
+               transition:ease .5s;
+               -webkit-transition:ease .5s;
+            // display:none;
             }
 
-            #project_details{
+            .project_details{
                 font-family:Poppins;
-                display:none;
-                font-size:5px;
-                transition: all .5s;
-                z-index:1;
-                overflow:hidden;
+                font-size:20px;
+               position: absolute;
+                bottom: 0;
+                padding-left:2vw;
+                padding-right:2vw;
+                padding-bottom:2vh;
+                opacity:0;
+               
+                /*left: 0;
+                right: 0;
+                overflow-y: hidden;
+                width: 100%;
+                height: 0;*/
+                transition: .5s ease;
+                -webkit-transition: .5s ease;
+                z-index:11;
+              
+              
+                
+
             }
 
-            .project_title:hover .project_details{
-                display:block
+            .project_title:hover{
+                padding-bottom:30%;
+               
             }
 
-            .project_title:hover .project_title{
-                position:relative;
+           .project_title:hover .project_details
+            {
+              
+               // height:20%;
+               
+                opacity:1;
             }
+
+            
 
             .project_parent:hover .flyux,
             .project_parent:focus .flyux{
