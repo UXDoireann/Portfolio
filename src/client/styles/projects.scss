@@ -1,0 +1,81 @@
+
+ $shadow:10px 20px 20px 5px rgb(141, 104, 138);
+
+ .project_card{
+     box-shadow:$shadow;
+     border-radius: 15px;
+ }
+
+ //#fly_ux{
+   
+    //position:absolute;
+   
+    
+ //}
+ 
+ 
+ @media(max-width:599px){
+    
+        
+
+        #fly_ux{
+            background-image:url("../media/flyux1.png") ;
+            background-size:cover;
+            background-repeat:no-repeat;
+            margin-top:8vh;
+            position:absolute;
+            width:80vw;
+        height:70vw;
+        margin-left:10vw;
+            
+        }
+       
+    
+ }
+
+ @media(min-width:600px)and(max-width:1199px){
+
+    
+      
+
+        #fly_ux{
+            background-image:url("../media/flyux1.png") ;
+            background-size:cover;
+            background-repeat:no-repeat;
+            margin-top:8vh;
+            position:absolute;
+            width:80vw;
+            height:70vw;
+            margin-left:10vw; }
+           
+       
+    
+
+   
+    }
+
+    @media(min-width:1200px){
+
+        
+            
+            
+    
+            #fly_ux{
+                background-image:url("../media/flyux1.png") ;
+                background-size:cover;
+                background-repeat:no-repeat;
+                margin-top:8vh;
+               margin-left:80px;
+               width:30vw;
+               height:30vw;
+               position:fixed;
+              
+              
+            }
+           
+        
+
+
+
+}
+ 

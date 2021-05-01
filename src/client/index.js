@@ -12,5 +12,7 @@ import './styles/projects.scss'
 import './styles/menu.scss'
 import './styles/pageload.scss'
 
+import './media/flyux1.png'
+
 export{openNav}
 
