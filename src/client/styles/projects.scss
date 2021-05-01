@@ -4,50 +4,181 @@
  .project_parent{
      box-shadow:$shadow;
      border-radius: 15px;
+     position:fixed;
+     overflow: hidden;
  }
 
- //#fly_ux{
-   
-    //position:absolute;
-   
+ .project_title{
+    font-family:Poppins;
+    display:flex;
+    flex-direction: row;
+    color:#e91e63;
+    font-size:20px;
+    background-color: rgb(255, 255, 255);
+    z-index:9; 
+    float:left;
+    position:absolute;
+    bottom:0;
+   padding-left:2vw;
+   width:100%;
+
+}
+
+.project_details{
+    font-family:Poppins;
+    color:rgba(64, 64, 65, 0.973);
+    font-size:13px;
+   position: absolute;
+    bottom: 0;
+    z-index:11;
+}
+
+ .flyux{
+    height:100%;
+    width:100%;
+    z-index:-1;
+    background-image:url("../media/flyux1.png") ;
+    background-size:cover;
+    background-repeat:no-repeat; 
+
+ }
+
+ 
     
- //}
+    
+
+ .subtitle{
+     color:rgba(65, 66, 66, 0.973);
+ }
+
+ 
  
  
  @media(max-width:599px){
-    
-        
 
-        #fly_ux{
-            background-image:url("../media/flyux1.png") ;
-            background-size:cover;
-            background-repeat:no-repeat;
-            margin-top:8vh;
-            position:absolute;
-            width:80vw;
+    
+    .project_parent{
+        width:80vw;
         height:70vw;
         margin-left:10vw;
-            
-        }
+        margin-top:7vh;
+      }
+    
+
+    
+        
+      
+    
+
+    .project_title{
+        
+    padding-left:2vw;
+      padding-bottom:18%;
+     
+    }
+
+    .project_details{
+        padding-left:2vw;
+        padding-right:2vw;
+        padding-bottom:1vh;
+        padding-top:1vh;
+       
+      
+      
+        
+
+    }
+
+
+ }
+  
+     
+
+      
        
     
- }
+ 
 
  @media(min-width:600px)and(max-width:1199px){
+
+    .project_parent{
+        margin-top:8vh;
+        width:80vw;
+        height:70vw;
+        margin-left:7vw;
+       position:fixed;
+       overflow: hidden;
+
+    }
+    
+
+    .flyux{
+        height:100%;
+        width:100%;
+        z-index:-1;
+
+        background-image:url("../media/flyux1.png") ;
+        background-size:cover;
+        background-repeat:no-repeat; 
+        transition: all .8s; 
+        
+      
+    }
+
+    .project_title{
+        font-family:Poppins;
+        display:flex;
+        flex-direction: row;
+        color:#e91e63;
+        font-size:20px;
+        background-color: rgb(238, 225, 236);
+        z-index:9; 
+        float:left;
+        position:absolute;
+        bottom:0;
+       padding-left:2vw;
+       padding-bottom:12%;
+       width:100%;
+       transition:ease .5s;
+       -webkit-transition:ease .5s;
+    
+    }
+
+    .project_details{
+        font-family:Poppins;
+        color:rgba(52, 53, 54, 0.973);
+        font-size:18px;
+       position: absolute;
+        bottom: 0;
+        padding-left:2vw;
+        padding-right:2vw;
+        padding-bottom:2vh;
+        z-index:11;
+      
+       
+       
+        
+      
+      
+        
+
+    }
+
+   
+
+   
+
+    
+
+   
+   
+
+
 
     
       
 
-        #fly_ux{
-            background-image:url("../media/flyux1.png") ;
-            background-size:cover;
-            background-repeat:no-repeat;
-            margin-top:8vh;
-            position:absolute;
-            width:80vw;
-            height:70vw;
-            margin-left:10vw; }
-           
+        
        
     
 
@@ -76,13 +207,15 @@
                 background-image:url("../media/flyux1.png") ;
                 background-size:cover;
                 background-repeat:no-repeat; 
-                transition: all .5s; 
+                transition: all .8s; 
                 
               
             }
 
             .project_title{
                 font-family:Poppins;
+                display:flex;
+                flex-direction: row;
                 color:#e91e63;
                 font-size:30px;
                 background-color: rgb(238, 225, 236);
@@ -99,6 +232,7 @@
 
             .project_details{
                 font-family:Poppins;
+                color:rgba(141, 143, 145, 0.973);
                 font-size:20px;
                position: absolute;
                 bottom: 0;
@@ -121,18 +255,21 @@
 
             }
 
-            .project_title:hover{
-                padding-bottom:30%;
+           /* .project_title:hover{
+                padding-bottom:20%;
                
             }
 
-           .project_title:hover .project_details
-            {
-              
-               // height:20%;
-               
-                opacity:1;
-            }
+           .project_title:hover  .project_details{opacity:1}*/
+
+           .project_parent:hover .project_title{
+               padding-bottom:20%;
+           }
+
+           .project_parent:hover .project_details{
+               opacity:1;
+               transition-timing-function:ease-out .2s;
+           }
 
             
 
