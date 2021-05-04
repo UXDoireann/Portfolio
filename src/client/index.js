@@ -11,8 +11,10 @@ import './styles/index.scss'
 import './styles/projects.scss'
 import './styles/menu.scss'
 import './styles/pageload.scss'
+import './styles/flyux.scss'
 
-import './media/flyux1.png'
+
+import './media/flyux_header.jpg'
 
 export{openNav}
 
