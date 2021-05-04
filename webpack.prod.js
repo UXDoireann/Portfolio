@@ -66,6 +66,10 @@ plugins:[
     template:"./src/client/views/cv.html",
     filename:"./cv.html",
   }),
+  new HtmlWebPackPlugin({
+    template:"./src/client/views/flyux.html",
+    filename:"./flyux.html",
+  }),
 
   new CleanWebpackPlugin({
     // Simulate the removal of files
