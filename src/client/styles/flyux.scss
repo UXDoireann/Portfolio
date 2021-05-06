@@ -1,7 +1,86 @@
 $primaryColor: #e91e63;
 $shadow:10px 20px 20px 5px rgb(141, 104, 138);
 
-#flyux_title{
+html{
+    height: 100%;
+    margin: auto;
+    width: 100%;
+    overflow: scroll;
+}
+
+.flyux_title{
     color:rgb(13, 83, 83);
     font-family:Poppins;
+}
+
+@media(max-width:599px){
+
+    .parallax_top{
+        background-image:url("../media/flyux_header.jpg");
+        min-height:200px;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+
+
+
+.parallax_bottom{
+    display:none;
+}
+
+.project_main{
+    //height:300px;
+    background-color: white;
+}
+
+}
+@media(min-width:600px)and(max-width:1199px){
+
+    .parallax_top{
+        background-image:url("../media/flyux_header.jpg");
+        min-height:300px;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+
+
+
+.parallax_bottom{
+    display:none;
+}
+
+.project_main{
+    //height:300px;
+    background-color: white;
+}
+
+}
+
+@media(min-width:1200px){
+
+.parallax_top{
+    background-image:url("../media/flyux_header.jpg");
+    min-height:450px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.parallax_bottom{
+    height:400px;
+    background-image:url("../media/flyux_footer.jpg");
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover; 
+}
+
+.project_main{
+    height:1000px;
+    background-color: white;
+}
+
 }
