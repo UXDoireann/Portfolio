@@ -1,4 +1,6 @@
 $primaryColor: #e91e63;
+$flyux:#228691;
+$flyuxlowop:#9cc7cc;
 $shadow:10px 20px 20px 5px rgb(141, 104, 138);
 
 html{
@@ -8,9 +10,36 @@ html{
     overflow: scroll;
 }
 
-.flyux_title{
-    color:rgb(13, 83, 83);
+h1{
+    color:$flyux;
+}
+
+p, h2, h3, h1{
     font-family:Poppins;
+}
+
+.section_title{
+    background-color:$flyuxlowop ;
+}
+
+.cb_img_parent{
+    overflow: hidden;
+    width:45vw;
+    height:600px;
+   // margin-left:1vw;
+    position:absolute;
+}
+
+
+
+.cb_img{
+    height:100%;
+    width:100%;
+    z-index:-1;
+    background-image:url("../media/CD.jpg") ;
+    background-size:cover;
+    background-repeat:no-repeat; 
+    transition: all .8s; 
 }
 
 @media(max-width:599px){
@@ -34,8 +63,18 @@ html{
     background-color: white;
 }
 
+img{
+    width:100vw;
+    height:50vh;
+}
+
 }
 @media(min-width:600px)and(max-width:1199px){
+
+    img{
+        width:100vw;
+        height:50vh;
+    }
 
     .parallax_top{
         background-image:url("../media/flyux_header.jpg");
@@ -60,6 +99,11 @@ html{
 
 @media(min-width:1200px){
 
+    img{
+        width:45vw;
+        height:50vh;
+    } 
+
 .parallax_top{
     background-image:url("../media/flyux_header.jpg");
     min-height:650px;
@@ -79,8 +123,10 @@ html{
 }
 
 .project_main{
-    height:1000px;
+    //height:1000px;
     background-color: white;
 }
+
+
 
 }
