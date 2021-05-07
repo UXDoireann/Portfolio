@@ -22,6 +22,17 @@ p, h2, h3, h1{
     background-color:$flyuxlowop ;
 }
 
+.pdf_link{
+    background-color: $flyux;
+    color:white;
+    font-family:Poppins;
+    border-radius:8px;
+    border-style:none;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:20px;
+}
+
 .cb_img_parent{
     overflow: hidden;
     width:45vw;
@@ -73,7 +84,7 @@ img{
 
     img{
         width:100vw;
-        height:50vh;
+        height:65vh;
     }
 
     .parallax_top{
@@ -101,7 +112,7 @@ img{
 
     img{
         width:45vw;
-        height:50vh;
+        height:70vh;
     } 
 
 .parallax_top{
