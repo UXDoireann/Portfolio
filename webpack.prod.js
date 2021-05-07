@@ -26,12 +26,12 @@ module.exports = {
             loader: "babel-loader"
                 },
                 {
-                    test: /\.(png|jpe?g|jpg|gif)$/i,
+                    test: /\.(png|jpe?g|jpg|gif|pdf)$/i,
                     use: [
                       {
                         loader: 'file-loader',
                         options: {
-                          outputPath: './media/icons', 
+                          outputPath: './media', 
                           name: "[name].[ext]"
                       }
                       },
