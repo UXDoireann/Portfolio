@@ -79,5 +79,7 @@ plugins:[
     protectWebpackAssets: false
 }),
 
+
+
 ]
 }

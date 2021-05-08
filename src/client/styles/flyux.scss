@@ -110,10 +110,25 @@ img{
 
 @media(min-width:1200px){
 
+    
+    
+    
+    .comp_bench_text{
+        width:50vw;
+        height:70vh;
+        float:right;
+    }
+
+    .comp_bench_img{
+        float:left;
+    }
+
     img{
         width:45vw;
         height:70vh;
-    } 
+    }
+    
+    
 
 .parallax_top{
     background-image:url("../media/flyux_header.jpg");
