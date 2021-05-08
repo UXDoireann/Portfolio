@@ -25,12 +25,7 @@ module.exports = {
             exclude: /node_modules/,
             loader: "babel-loader"
                 },
-                {
-                  test: /\.(jpg|png)$/,
-                  use: {
-                    loader: 'url-loader',
-                  },
-                },
+                
                 {
                     test: /\.(png|jpe?g|jpg|gif|pdf)$/i,
                     use: [
@@ -41,8 +36,10 @@ module.exports = {
                           name: "[name].[ext]"
                       }
                       },
+                      
                     ],
                   }, 
+                 
                   {
                     test: /\.scss$/,
                     use: [ MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader' ]

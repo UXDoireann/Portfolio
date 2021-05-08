@@ -23,12 +23,7 @@ module.exports = {
             exclude: /node_modules/,
             loader: "babel-loader"
                 },
-                {
-                  test: /\.(jpg|png)$/,
-                  use: {
-                    loader: 'url-loader',
-                  },
-                },
+                
                 {
                     test: /\.(png|jpe?g|gif|pdf)$/i,
                     use: [
@@ -41,6 +36,7 @@ module.exports = {
                       },
                     ],
                   },
+                 
                   {
                     test: /\.scss$/,
                     use: [ 'style-loader', 'css-loader', 'sass-loader' ]
