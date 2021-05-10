@@ -1,6 +1,7 @@
 $primaryColor: #e91e63;
 $flyux:#228691;
 $flyuxlowop:#9cc7cc;
+$flyuxsection:#4c8f99;
 $shadow:10px 20px 20px 5px rgb(141, 104, 138);
 
 html{
@@ -21,6 +22,8 @@ p, h2, h3, h1{
 .section_title{
     background-color:$flyuxlowop ;
 }
+
+
 
 .pdf_link{
     background-color: $flyux;
@@ -119,12 +122,22 @@ img{
         float:right;
     }
 
+    .survey_text{
+        width:50vw;
+        height:70vh;
+        float:left;
+    }
+
     .comp_bench_img{
         float:left;
     }
 
+    .survey_img{
+        float:right;
+    }
+
     img{
-        width:45vw;
+        width:47vw;
         height:70vh;
     }
     

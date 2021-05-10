@@ -17,6 +17,7 @@ import './styles/flyux.scss'
 import './media/flyux_header.jpg'
 import './media/flyux_footer.jpg'
 import './media/CD.jpg'
+import './media/survey.jpg'
 
 import './media/CBAirlines.pdf'
 
