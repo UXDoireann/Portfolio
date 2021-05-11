@@ -20,8 +20,24 @@ p, h2, h3, h1{
 }
 
 .section_title{
-    background-color:$flyuxlowop ;
+    background-color:$flyuxlowop;
+    margin-top: 3vh;
+    margin-bottom:3vh;
+    
 }
+
+img{
+    border-radius:8px;
+   box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
+}
+
+.project_main{
+    background-color: white;
+    margin-left:1vw;
+    margin-right:1vw;
+}
+
+
 
 
 
@@ -78,16 +94,18 @@ p, h2, h3, h1{
 }
 
 img{
-    width:100vw;
-    height:50vh;
+    width:85vw;
+    height:35vh;
+    margin-left:3vw;
 }
 
 }
 @media(min-width:600px)and(max-width:1199px){
 
     img{
-        width:100vw;
-        height:65vh;
+        width:85vw;
+        height:50vh;
+        margin-left:5vw;
     }
 
     .parallax_top{
@@ -113,17 +131,30 @@ img{
 
 @media(min-width:1200px){
 
-    
-    
-    
-    .comp_bench_text{
-        width:50vw;
-        height:70vh;
-        float:right;
+    .project_main{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
     }
 
-    .survey_text{
-        width:50vw;
+    .proj_info{
+        float:left;
+        width:65vh;
+    }
+    
+    
+ .comp_bench_text{
+        width:47vw;
+        height:70vh;
+        float:right;
+       
+    }
+
+    
+
+    .heading, .survey_text{
+        width:47vw;
         height:70vh;
         float:left;
     }
@@ -161,10 +192,7 @@ img{
     background-size:cover; 
 }
 
-.project_main{
-    //height:1000px;
-    background-color: white;
-}
+
 
 
 
