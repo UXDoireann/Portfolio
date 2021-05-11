@@ -2,6 +2,7 @@ $primaryColor: #e91e63;
 $flyux:#228691;
 $flyuxlowop:#9cc7cc;
 $flyuxsection:#4c8f99;
+$flyuxdark:#0d3035;
 $shadow:10px 20px 20px 5px rgb(141, 104, 138);
 
 html{
@@ -42,14 +43,23 @@ img{
 
 
 .pdf_link{
-    background-color: $flyux;
+    background-color:$flyux;
+    //box-shadow:5px 10px 10px 10px rgb(138, 157, 160); ;
+    border-radius:4px;
+    border-style:none;
+    padding-left:1vw;
+    padding-right:2vw;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    margin-top:2vh;
+   
+}
+
+#cb{
     color:white;
     font-family:Poppins;
-    border-radius:8px;
-    border-style:none;
-    padding-left:10px;
-    padding-right:10px;
-    font-size:20px;
+    font-size:5px;
+
 }
 
 .cb_img_parent{
