@@ -32,12 +32,31 @@ img{
    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
 }
 
+
 .project_main{
     background-color: white;
     margin-left:1vw;
     margin-right:1vw;
 }
 
+.user_test_images{
+    width:47vw;
+    height:70vh;
+    animation-name:user;
+    background-size:contain;
+    background-repeat:no-repeat;
+    animation-duration:30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes user{
+    0%{background-image:url("../media/Fionnuala_b&w.jpg");}
+    25%{background-image:url("../media/Fionnuala_1.png");}
+    50%{background-image:url("../media/Fionnuala_2.png");}
+    75%{background-image:url("../media/Fionnuala_3.png");}
+    100%{background-image:url("../media/Fionnuala_b&w.jpg");}
+}
 
 
 

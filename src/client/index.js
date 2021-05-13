@@ -18,6 +18,10 @@ import './media/flyux_header.jpg'
 import './media/flyux_footer.jpg'
 import './media/CD.jpg'
 import './media/survey.jpg'
+import './media/Fionnuala_b&w.jpg'
+import './media/Fionnuala_1.png'
+import './media/Fionnuala_2.png'
+import './media/Fionnuala_2.png'
 
 import './media/CBAirlines.pdf'
 
