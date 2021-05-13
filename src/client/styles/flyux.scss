@@ -21,10 +21,21 @@ p, h2, h3, h1{
     font-family:Poppins;
 }
 
+section{
+   /* width:100vw;*/
+    height:85vh;
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-top:8vh;
+   // margin-bottom:8vh;
+}
+
 .section_title{
     background-color:$flyuxlowop;
     margin-top: 3vh;
     margin-bottom:3vh;
+    width:100vw;
+    overflow:visible
     
 }
 
@@ -36,8 +47,7 @@ img{
 
 .project_main{
     background-color: white;
-    margin-left:1vw;
-    margin-right:1vw;
+   
 }
 
 .user_test_images_1{
@@ -206,6 +216,12 @@ img{
 
 @media(min-width:1200px){
 
+    section{
+        display:flex;
+        flex-direction: row;
+        //justify-content:flex-start;
+    }
+
     .project_main{
         display:flex;
         flex-direction: column;
@@ -213,34 +229,27 @@ img{
         
     }
 
-    .proj_info{
+    .left_text{
         float:left;
-        width:65vh;
+        width:45vw;
+        height:70vh;
     }
     
     
- .comp_bench_text{
-        width:47vw;
+    .right_text{
+        width:45vw;
         height:70vh;
         float:right;
        
     }
 
-    .user_text{
-        width:47vw;
-        height:70vh;
-        float:right;
-    }
+    
 
     
 
     
 
-    .heading, .survey_text, .user_text_2{
-        width:47vw;
-        height:70vh;
-        float:left;
-    }
+    
 
     .comp_bench_img{
         float:left;
@@ -251,8 +260,8 @@ img{
     }
 
     img{
-        width:47vw;
-        height:70vh;
+        width:40vw;
+        height:60vh;
     }
 
     /*.user_test_parent_1{
@@ -268,8 +277,8 @@ img{
     }*/
 
     .user_test_images_1{
-        width:45vw;
-        height:65vh;
+        width:40vw;
+        height:60vh;
     }
 
     
