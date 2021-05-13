@@ -4,6 +4,7 @@ $flyuxlowop:#9cc7cc;
 $flyuxsection:#4c8f99;
 $flyuxdark:#0d3035;
 $shadow:10px 20px 20px 5px rgb(141, 104, 138);
+$background:#2E7D9B;
 
 html{
     height: 100%;
@@ -39,23 +40,33 @@ img{
     margin-right:1vw;
 }
 
+.user_test_images_1{
+    background-size:cover;
+    border-radius:8px;
+    background-repeat:no-repeat;
+    background-image:url("../media/Fionnuala_b&w.jpg"); 
+    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
+}
+
 .user_test_images{
-    width:47vw;
-    height:70vh;
+    width: 100%;
+    height:100%;
+   // border-radius: 8px;
     animation-name:user;
     background-size:contain;
     background-repeat:no-repeat;
-    animation-duration:30s;
+    animation-duration:10s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    -webkit-animation-timing-function: steps(1,end);
+    animation-timing-function: steps(1,end);
 }
 
 @keyframes user{
-    0%{background-image:url("../media/Fionnuala_b&w.jpg");}
+    0%{background-image:url("../media/Fionnuala_3.png");}
     25%{background-image:url("../media/Fionnuala_1.png");}
     50%{background-image:url("../media/Fionnuala_2.png");}
     75%{background-image:url("../media/Fionnuala_3.png");}
-    100%{background-image:url("../media/Fionnuala_b&w.jpg");}
+    100%{background-image:url("../media/Fionnuala_1.png");}
 }
 
 
@@ -83,10 +94,10 @@ img{
 
 .cb_img_parent{
     overflow: hidden;
-    width:45vw;
-    height:600px;
+    width:500px;
+    height:65vh;
    // margin-left:1vw;
-    position:absolute;
+    //position:absolute;
 }
 
 
@@ -128,6 +139,23 @@ img{
     margin-left:3vw;
 }
 
+.user_test_images_1{
+    width:85vw;
+    height:40vh;
+    margin-left:3vw;
+}
+
+.user_img_parent{
+    width:85vw;
+    height:40vh;
+    margin-left:3vw;
+    border-radius:8px;
+    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
+    background-color: $background;
+    overflow:hidden;
+    
+}
+
 }
 @media(min-width:600px)and(max-width:1199px){
 
@@ -135,6 +163,17 @@ img{
         width:85vw;
         height:50vh;
         margin-left:5vw;
+    }
+
+    .user_img_parent{
+        width:70vw;
+        height:40vh;
+        margin-left:10vw;
+        border-radius:8px;
+        box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
+        background-color: $background;
+        overflow:hidden;
+        
     }
 
     .parallax_top{
@@ -155,6 +194,13 @@ img{
     //height:300px;
     background-color: white;
 }
+
+.user_test_images_1{
+    width:85vw;
+    height:40vh;
+    margin-left:5vw;
+}
+
 
 }
 
@@ -180,9 +226,17 @@ img{
        
     }
 
+    .user_text{
+        width:47vw;
+        height:70vh;
+        float:right;
+    }
+
     
 
-    .heading, .survey_text{
+    
+
+    .heading, .survey_text, .user_text_2{
         width:47vw;
         height:70vh;
         float:left;
@@ -200,6 +254,39 @@ img{
         width:47vw;
         height:70vh;
     }
+
+    /*.user_test_parent_1{
+        width:35vw;
+        height:50vh;
+        background-color: $background;
+        float:left;
+        border-radius:8px;
+        box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
+        //position:fixed;
+        overflow:hidden;
+        margin-right:5vw;
+    }*/
+
+    .user_test_images_1{
+        width:45vw;
+        height:65vh;
+    }
+
+    
+
+   .user_img_parent{
+        width:35vw;
+        height:50vh;
+        background-color: $background;
+        float:right;
+        border-radius:8px;
+        box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
+        //position:fixed;
+        overflow:hidden;
+        margin-right:5vw;
+    }
+    
+
     
     
 
