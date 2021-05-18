@@ -23,6 +23,8 @@ import './media/Fionnuala_1.png'
 import './media/Fionnuala_2.png'
 import './media/Fionnuala_2.png'
 
+import './media/logo.png'
+
 import './media/CBAirlines.pdf'
 
 export{openNav}

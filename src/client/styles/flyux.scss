@@ -6,8 +6,37 @@ $flyuxdark:#0d3035;
 $shadow:10px 20px 20px 5px rgb(141, 104, 138);
 $background:#2E7D9B;
 
+#logo{
+    background-image: url('../media/logo.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+}
+
+p{
+    color:grey;
+}
+
+
+h3{
+    color:$flyux;
+
+}
+
+.section_title{
+    margin-bottom:8vh;
+}
+
+q{
+    color:$background;
+    font-family:'Poppins';
+}
+
+
+
 li{
     font-family:"Poppins";
+    color:grey;
 }
 
 html{
@@ -21,13 +50,23 @@ h1{
     color:$flyux;
 }
 
+
+
+h2{
+    text-align:center;
+    color:$flyuxdark;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    text-transform:uppercase;
+}
+
 p, h2, h3, h1{
     font-family:Poppins;
 }
 
 section{
    /* width:100vw;*/
-    height:85vh;
+   // height:85vh;
     margin-left:1vw;
     margin-right:1vw;
     margin-top:8vh;
@@ -142,15 +181,42 @@ img{
     display:none;
 }
 
+#logo{
+    width:75vw;
+   margin-right:10vw;
+    height:40vh;
+}
+
+h2{
+    font-size:20px;
+}
+
+h3{
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+}
+
+section, article{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+   // margin-top:10vh;
+    margin-bottom:13vh;
+}
+
 .project_main{
-    //height:300px;
     background-color: white;
+    
+    
 }
 
 img{
     width:85vw;
     height:35vh;
     margin-left:3vw;
+    margin-top:3vh;
+    margin-bottom:3vh;
 }
 
 .user_test_images_1{
@@ -170,13 +236,44 @@ img{
     
 }
 
+q{
+    font-size:17px;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.quote{
+    margin-top:6vh;
+    margin-bottom:6vh;
+}
+
 }
 @media(min-width:600px)and(max-width:1199px){
+
+    #logo{
+        width:75vw;
+       margin-right:10vw;
+        height:40vh;
+    }
 
     img{
         width:85vw;
         height:50vh;
         margin-left:5vw;
+    }
+
+    h2{
+        font-size:25px;
+    }
+
+    h3{
+        font-size:40px;
+        font-weight:bold;
+        text-align:center;
+    }
+
+    section, article{
+        margin-bottom:10vh;
     }
 
     .user_img_parent{
@@ -215,15 +312,47 @@ img{
     margin-left:5vw;
 }
 
+q{
+    font-size:25px;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.quote{
+    margin-top:10vh;
+    margin-bottom:10vh;
+    text-align:center;
+}
+
 
 }
 
 @media(min-width:1200px){
 
+    #logo{
+        width:50vw;
+       margin-right:10vw;
+        height:40vh;
+    }
+
     section{
         display:flex;
         flex-direction: row;
-        //justify-content:flex-start;
+        justify-content:space-between;
+        margin-bottom:13vh;
+    }
+
+    article{
+        display:flex;
+        flex-direction:row-reverse;
+        justify-content: space-between;
+        margin-bottom:13vh;
+    }
+
+    h3{
+        font-size:45px;
+        font-weight:bold;
+       
     }
 
     .project_main{
@@ -233,10 +362,15 @@ img{
         
     }
 
+    h2{
+        font-size:30px;
+    }
+
     .left_text{
         float:left;
         width:45vw;
         height:70vh;
+        margin-left:5vw;
     }
     
     
@@ -244,7 +378,13 @@ img{
         width:45vw;
         height:70vh;
         float:right;
+        margin-right:5vw;
        
+    }
+
+    img{
+        margin-right:5vw;
+        margin-left:5vw;
     }
 
     
@@ -305,7 +445,7 @@ img{
 
 .parallax_top{
     background-image:url("../media/flyux_header.jpg");
-    min-height:650px;
+    min-height:610px;
     background-attachment:fixed;
     background-position:center;
     background-repeat:no-repeat;
@@ -321,6 +461,33 @@ img{
     background-size:cover; 
 }
 
+#flyux_title{
+    display:flex;
+    flex-direction:row;
+    height:20vh;
+    padding-bottom:50vh;
+    
+   // margin-top:50vh;
+}
+
+#intro{
+    font-size:18px;
+    color:rgb(112, 109, 109);
+    padding-top:10vh;
+    margin-right:10vw;
+}
+
+q{
+    font-size:25px;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.quote{
+    margin-top:5vh;
+    margin-bottom:15vh;
+    text-align:center;
+}
 
 
 
