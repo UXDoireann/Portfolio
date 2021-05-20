@@ -90,6 +90,7 @@ img{
 
 .project_main{
     background-color: white;
+    border-top: 2px double $flyux;
    
 }
 
@@ -101,11 +102,55 @@ img{
     box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
 }
 
-.user_test_images{
+#megan, #fionnuala, #michele{
     width: 100%;
     height:100%;
    // border-radius: 8px;
-    animation-name:user;
+}
+
+#megan{
+    animation-name:megan;
+    background-size:contain;
+    background-repeat:no-repeat;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps(1,end);
+    animation-timing-function: steps(1,end);
+}
+
+@keyframes megan{
+    0%{background-image:url("../media/Megan_1.png");}
+    20%{background-image:url("../media/Megan_2.png");}
+    40%{background-image:url("../media/Megan_3.png");}
+    60%{background-image:url("../media/Megan_4.png");}
+    80%{background-image:url("../media/Megan_5.png");}
+    100%{background-image:url("../media/Megan_6.png");}
+
+}
+
+#fionnuala{
+    animation-name:fionnuala;
+    background-size:contain;
+    background-repeat:no-repeat;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps(1,end);
+    animation-timing-function: steps(1,end);
+
+}
+
+@keyframes fionnuala{
+    0%{background-image:url("../media/Fionnuala_1.png");}
+    25%{background-image:url("../media/Fionnuala_2.png");}
+    50%{background-image:url("../media/Fionnuala_3.png");}
+    75%{background-image:url("../media/Fionnuala_4.png");}
+    100%{background-image:url("../media/Fionnuala_5.png");}
+   
+
+}
+
+#michele{
+    animation-name:michele;
     background-size:contain;
     background-repeat:no-repeat;
     animation-duration:10s;
@@ -114,12 +159,14 @@ img{
     animation-timing-function: steps(1,end);
 }
 
-@keyframes user{
-    0%{background-image:url("../media/Fionnuala_3.png");}
-    25%{background-image:url("../media/Fionnuala_1.png");}
-    50%{background-image:url("../media/Fionnuala_2.png");}
-    75%{background-image:url("../media/Fionnuala_3.png");}
-    100%{background-image:url("../media/Fionnuala_1.png");}
+@keyframes megan{
+    0%{background-image:url("../media/Megan_1.png");}
+    20%{background-image:url("../media/Megan_2.png");}
+    40%{background-image:url("../media/Megan_3.png");}
+    60%{background-image:url("../media/Megan_4.png");}
+    80%{background-image:url("../media/Megan_5.png");}
+    100%{background-image:url("../media/Megan_6.png");}
+
 }
 
 
