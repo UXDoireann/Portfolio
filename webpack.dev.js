@@ -66,6 +66,7 @@ plugins:[
   }),
   new HtmlWebPackPlugin({
     template:"./src/client/views/flyux.html",
+    inject:true,
     filename:"./flyux.html",
   }),
 

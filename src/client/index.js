@@ -1,8 +1,14 @@
 
 import {openNav} from './js/Nav.js'
+import {activeSection} from './js/function.js'
+import {activeArticle} from './js/function.js'
 
 //Event Listener for Menu
 document.getElementById('burger').addEventListener('click', openNav);
+
+//Event Listener for Opacity on Scroll
+document.addEventListener('scroll', activeSection)
+document.addEventListener('scroll', activeArticle)
 
 import './styles/about.scss'
 import './styles/contact.scss'
@@ -36,4 +42,5 @@ import './media/logo.png'
 import './media/CBAirlines.pdf'
 
 export{openNav}
-
+export{activeSection}
+export{activeArticle}
