@@ -22,6 +22,14 @@ import './media/Fionnuala_b&w.jpg'
 import './media/Fionnuala_1.png'
 import './media/Fionnuala_2.png'
 import './media/Fionnuala_2.png'
+import './media/Michele_1.png'
+import './media/Michele_2.png'
+import './media/Michele_3.png'
+import './media/Michele_4.png'
+import './media/Michele_5.png'
+import './media/Michele_6.png'
+
+
 
 import './media/logo.png'
 

@@ -110,10 +110,13 @@ img{
 
 #megan{
     animation-name:megan;
+    -webkit-animation-name:megan;
     background-size:contain;
     background-repeat:no-repeat;
     animation-duration:6s;
+    -webkit-animation-duration:6s;
     animation-iteration-count: infinite;
+    -webkit-animation-iteration-count:infinite;
     -webkit-animation-timing-function: steps(1,end);
     animation-timing-function: steps(1,end);
 }
@@ -129,10 +132,13 @@ img{
 }
 
 #fionnuala{
+    -webkit-animation-name:fionnuala;
     animation-name:fionnuala;
     background-size:contain;
     background-repeat:no-repeat;
+    -webkit-animation-duration:5s;
     animation-duration:5s;
+    -webkit-animation-iteration-count:infinite;
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: steps(1,end);
     animation-timing-function: steps(1,end);
@@ -151,21 +157,24 @@ img{
 
 #michele{
     animation-name:michele;
+    -webkit-animation-name:michele;
     background-size:contain;
     background-repeat:no-repeat;
-    animation-duration:10s;
+    animation-duration:6s;
+    -webkit-animation-duration:6s;
     animation-iteration-count: infinite;
+    -webkit-animation-iteration-count:infinite;
     -webkit-animation-timing-function: steps(1,end);
     animation-timing-function: steps(1,end);
 }
 
-@keyframes megan{
-    0%{background-image:url("../media/Megan_1.png");}
-    20%{background-image:url("../media/Megan_2.png");}
-    40%{background-image:url("../media/Megan_3.png");}
-    60%{background-image:url("../media/Megan_4.png");}
-    80%{background-image:url("../media/Megan_5.png");}
-    100%{background-image:url("../media/Megan_6.png");}
+@keyframes michele{
+    0%{background-image:url("../media/Michele_1.png");}
+    20%{background-image:url("../media/Michele_2.png");}
+    40%{background-image:url("../media/Michele_3.png");}
+    60%{background-image:url("../media/Michele_4.png");}
+    80%{background-image:url("../media/Michele_5.png");}
+    100%{background-image:url("../media/Michele_6.png");}
 
 }
 
