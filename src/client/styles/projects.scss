@@ -2,11 +2,15 @@
  $primaryColor: #e91e63;
  $shadow:10px 20px 20px 5px rgb(141, 104, 138);
 
+.projects_wrapper{
+    opacity:1;
+}
  .project_parent{
      box-shadow:$shadow;
      border-radius:8px;
     // position:absolute;
      overflow: hidden;
+     
  }
 
  .project_title{

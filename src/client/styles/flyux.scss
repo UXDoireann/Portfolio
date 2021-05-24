@@ -8,19 +8,21 @@ $background:#2E7D9B;
 
 section, article{
     opacity:0;
-    transition: 0.8s;
-    transition-timing-function:ease-in-out;
+    transition: 2s;
+    transition-timing-function:ease-out;
 
 }
 
-.opacity{
+.quote, .section_title{
     opacity:0;
+    transition: 2s;
+    transition-timing-function:ease-out;
 }
 
 .your-active-class{
     opacity:1;
-    transition: 0.8s;
-    transition-timing-function:ease-in-out;
+    transition: 2s;
+    transition-timing-function:ease-in;
 }
 
 #logo{
@@ -105,7 +107,7 @@ img{
 }
 
 
-.project_main{
+#project_main{
     background-color: white;
     border-top: 2px double $flyux;
    
@@ -278,7 +280,7 @@ section, article{
     margin-bottom:13vh;
 }
 
-.project_main{
+#project_main{
     background-color: white;
     
     
@@ -428,7 +430,7 @@ q{
        
     }
 
-    .project_main{
+    #project_main{
         display:flex;
         flex-direction: column;
         justify-content: flex-start;

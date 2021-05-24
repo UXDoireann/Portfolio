@@ -1,7 +1,9 @@
 
 import {openNav} from './js/Nav.js'
-import {activeSection} from './js/function.js'
-import {activeArticle} from './js/function.js'
+import {activeSection} from './js/fadein.js'
+import {activeArticle} from './js/fadein.js'
+import {activeQuote} from './js/fadein.js'
+import {activeTitle} from './js/fadein.js'
 
 //Event Listener for Menu
 document.getElementById('burger').addEventListener('click', openNav);
@@ -9,6 +11,8 @@ document.getElementById('burger').addEventListener('click', openNav);
 //Event Listener for Opacity on Scroll
 document.addEventListener('scroll', activeSection)
 document.addEventListener('scroll', activeArticle)
+document.addEventListener('scroll', activeQuote)
+document.addEventListener('scroll', activeTitle)
 
 import './styles/about.scss'
 import './styles/contact.scss'
@@ -44,3 +48,5 @@ import './media/CBAirlines.pdf'
 export{openNav}
 export{activeSection}
 export{activeArticle}
+export{activeQuote}
+export{activeTitle}
