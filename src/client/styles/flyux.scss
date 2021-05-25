@@ -6,15 +6,19 @@ $flyuxdark:#0d3035;
 $shadow:10px 20px 20px 5px rgb(141, 104, 138);
 $background:#2E7D9B;
 
+
+
 section, article{
     opacity:0;
     transition: 2s;
     transition-timing-function:ease-out;
+    color:grey;
+    font-family:'Poppins';
     
 
 }
 
-article{
+.grey{
     background-color: grayscale($color: #eeebeb);
     padding-top:15px;
 }
@@ -41,7 +45,6 @@ article{
 p{
     color:grey;
 }
-
 
 h3{
     color:$flyux;
@@ -232,11 +235,7 @@ img{
 
 }
 
-.f{
-   border-top: 1px solid $flyuxsection;
-   background-color: rgb(195, 219, 223);
-  
-}
+
 
 
 
@@ -289,9 +288,10 @@ img{
 }
 
 #logo{
-    width:75vw;
-   margin-right:10vw;
+    width:90vw;
+  margin-left:3vw;
     height:40vh;
+    border-bottom:2px solid $flyux;
 }
 
 h2{
@@ -319,8 +319,8 @@ section, article{
 }
 
 #compbench{
-    width:245px;
-    height:175px;
+    width:325px;
+    height:230px;
     margin-left:8vw;
     margin-top:3vh;
     margin-bottom:3vh;
@@ -366,9 +366,11 @@ q{
 @media(min-width:600px)and(max-width:1199px){
 
     #logo{
-        width:75vw;
-       margin-right:10vw;
+        width:90vw;
+       margin-left:5vw;
         height:40vh;
+        padding-bottom:3vh;
+        border-bottom:3px solid $flyux;
     }
 
     #compbench{
@@ -456,11 +458,19 @@ q{
         height:40vh;
     }
 
+    
+#logo{
+    border-right:2px solid $flyux;
+    padding-bottom:8vh;
+    margin-bottom:3vh;
+}
+
+
     section{
         display:flex;
         flex-direction: row;
         justify-content:space-between;
-        margin-bottom:13vh;
+        margin-bottom:10vh;
     }
 
     article{
@@ -556,12 +566,12 @@ q{
         width:35vw;
         height:50vh;
         background-color: $background;
-        float:right;
+        //float:right;
         border-radius:8px;
         box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
         //position:fixed;
         overflow:hidden;
-        margin-right:5vw;
+        margin-right:35vw;
     }
     
 
@@ -598,7 +608,7 @@ q{
 #intro{
     font-size:18px;
     color:rgb(112, 109, 109);
-    padding-top:10vh;
+    padding-top:3vh;
     margin-right:10vw;
 }
 
