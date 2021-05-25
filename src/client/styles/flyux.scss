@@ -10,7 +10,13 @@ section, article{
     opacity:0;
     transition: 2s;
     transition-timing-function:ease-out;
+    
 
+}
+
+article{
+    background-color: grayscale($color: #eeebeb);
+    padding-top:15px;
 }
 
 .quote, .section_title{
@@ -44,6 +50,35 @@ h3{
 
 .section_title{
     margin-bottom:8vh;
+}
+
+#compbench{
+    //background-image:url('../media/CB1.jpg');
+    border-radius:8px;
+    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name:compb;
+    -webkit-animation-name:compb;
+    animation-duration:40s;
+    -webkit-animation-duration:40s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function: steps(1,end);
+    animation-timing-function: steps(1,end);
+
+}
+
+
+
+
+@keyframes compb{
+    0%{background-image:url("../media/CB1.jpg");}
+    30%{background-image:url("../media/CB2.jpg");}
+    60%{background-image:url("../media/CB3.jpg");}
+    80%{background-image:url("../media/CB4.jpg");}
+    100%{background-image:url("../media/CB4.jpg");}
+
 }
 
 q{
@@ -109,7 +144,7 @@ img{
 
 #project_main{
     background-color: white;
-    border-top: 2px double $flyux;
+    border-top: 3px solid $flyux;
    
 }
 
@@ -197,6 +232,12 @@ img{
 
 }
 
+.f{
+   border-top: 1px solid $flyuxsection;
+   background-color: rgb(195, 219, 223);
+  
+}
+
 
 
 
@@ -230,15 +271,6 @@ img{
 
 
 
-.cb_img{
-    height:100%;
-    width:100%;
-    z-index:-1;
-    background-image:url("../media/CD.jpg") ;
-    background-size:cover;
-    background-repeat:no-repeat; 
-    transition: all .8s; 
-}
 
 @media(max-width:599px){
 
@@ -286,6 +318,14 @@ section, article{
     
 }
 
+#compbench{
+    width:245px;
+    height:175px;
+    margin-left:8vw;
+    margin-top:3vh;
+    margin-bottom:3vh;
+}
+
 img{
     width:85vw;
     height:35vh;
@@ -329,6 +369,12 @@ q{
         width:75vw;
        margin-right:10vw;
         height:40vh;
+    }
+
+    #compbench{
+        width:650px;
+        height:460px;
+        margin-left:5vw;
     }
 
     img{
@@ -445,7 +491,7 @@ q{
         float:left;
         width:45vw;
         height:70vh;
-        margin-left:5vw;
+        margin-left:10vw;
     }
     
     
@@ -461,18 +507,22 @@ q{
         margin-right:5vw;
         margin-left:5vw;
     }
-
-    
-
-    
-
-    
-
-    
-
-    .comp_bench_img{
-        float:left;
+ 
+    #compbench{
+        margin-right:5vw;
+        margin-left:5vw;
+        width:830px;
+        height:480px;
     }
+    
+
+    
+
+    
+
+    
+
+    
 
     .survey_img{
         float:right;
@@ -564,7 +614,9 @@ q{
     text-align:center;
 }
 
-
+#megan{
+    margin-right:100px;
+}  
 
 
 }

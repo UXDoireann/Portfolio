@@ -26,7 +26,12 @@ import './styles/flyux.scss'
 
 import './media/flyux_header.jpg'
 import './media/flyux_footer.jpg'
-import './media/CD.jpg'
+
+import './media/CB1.jpg'
+import './media/CB2.jpg'
+import './media/CB3.jpg'
+import './media/CB4.jpg'
+
 import './media/survey.jpg'
 import './media/Fionnuala_b&w.jpg'
 import './media/Fionnuala_1.png'
