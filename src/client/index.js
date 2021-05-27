@@ -44,11 +44,30 @@ import './media/Michele_4.png'
 import './media/Michele_5.png'
 import './media/Michele_6.png'
 
+import './media/ad_b&w_1.jpg'
+import './media/ad_b&w_2.jpg'
+import './media/ad_b&w_3.jpg'
+import './media/ad_baggage.jpg'
+import './media/ad_changes.jpg'
+import './media/ad_extras.jpg'
+import './media/ad_guidance.jpg'
+import './media/ad_infonotseen.jpg'
+import './media/ad_interactivity.jpg'
+import './media/ad_landingpage.jpg'
+import './media/ad_layover.jpg'
+import './media/ad_priceclarity.jpg'
+import './media/ad_seats.jpg'
+import './media/ad_signin.jpg'
+import './media/ad_toomuchtext.jpg'
+import './media/whole_diagram.jpg'
+
+
 
 
 import './media/logo.png'
 
 import './media/CBAirlines.pdf'
+import './media/DoireannNiGhrioghair_Project5.pdf'
 
 export{openNav}
 export{activeSection}
