@@ -2,7 +2,7 @@ const path = require("path")
 const webpack = require("webpack")
 const HtmlWebPackPlugin = require("html-webpack-plugin")
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const CompressionPlugin = require("compression-webpack-plugin");
+//const CompressionPlugin = require("compression-webpack-plugin");
 //const WorkboxPlugin = require("workbox-webpack-plugin");
 
 
@@ -80,8 +80,9 @@ plugins:[
     cleanStaleWebpackAssets: true,
     protectWebpackAssets: false
 }),
+//new CompressionPlugin()
 
-new CompressionPlugin(),
+
 
 
 
