@@ -52,6 +52,7 @@ import './media/ad_guidance.jpg'
 import './media/ad_layover.jpg'
 import './media/ad_priceclarity.jpg'
 import './media/whole_diagram.jpg'
+import './media/customer_journey_map.jpg'
 
 
 
@@ -60,6 +61,7 @@ import './media/logo.png'
 
 import './media/CBAirlines.pdf'
 import './media/DoireannNiGhrioghair_Project5.pdf'
+import './media/CustomerJourneyMap.pdf'
 
 export{openNav}
 export{activeSection}
