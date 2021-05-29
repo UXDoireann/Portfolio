@@ -3,9 +3,55 @@ $flyux:#228691;
 $flyuxlowop:#9cc7cc;
 $flyuxsection:#4c8f99;
 $flyuxdark:#0d3035;
-$shadow:10px 20px 20px 5px rgb(141, 104, 138);
+
 $background:#2E7D9B;
 $compbench:rgb(218,242,245);
+
+$imageShadow:5px 10px 10px 10px rgb(138, 157, 160);
+
+
+
+
+
+html{
+     margin: auto;
+     width: 100%;
+     overflow: auto;
+ }
+
+ p, h2, h3, h1, li, q{
+    font-family:'Poppins';
+}
+
+ 
+ h1, h3{
+     color:$flyux;
+ }
+
+ h2{
+    text-align:center;
+    color:$flyuxdark;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    text-transform:uppercase;
+}
+
+h3{
+    font-weight:bold;
+    text-align:center;
+}
+
+
+ p, li{
+    color:grey;
+}
+
+
+q{
+    color:$background;
+    font-weight:bold;
+    font-style:italic;
+}
 
 
 
@@ -19,10 +65,6 @@ section, article{
 
 }
 
-.grey{
-    background-color: grayscale($color: #eeebeb);
-    padding-top:15px;
-}
 
 .quote, .section_title{
     opacity:0;
@@ -32,8 +74,13 @@ section, article{
 
 .your-active-class{
     opacity:1;
-    transition: 2s;
+    transition: 1.5s;
     transition-timing-function:ease-in;
+}
+
+.grey{
+    background-color: grayscale($color: #eeebeb);
+    padding-top:15px;
 }
 
 #logo{
@@ -43,15 +90,6 @@ section, article{
     
 }
 
-p{
-    color:grey;
-}
-
-h3{
-    color:$flyux;
-
-}
-
 .section_title{
     margin-bottom:8vh;
 }
@@ -59,7 +97,7 @@ h3{
 #compbench{
     background-color:$compbench;
     border-radius:8px;
-    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
+    box-shadow:$imageShadow;
     background-repeat: no-repeat;
     background-size: contain;
     animation-name:compb;
@@ -74,8 +112,6 @@ h3{
 }
 
 
-
-
 @keyframes compb{
     0%{background-image:url("../media/CB1.jpg");}
     30%{background-image:url("../media/CB2.jpg");}
@@ -85,50 +121,10 @@ h3{
 
 }
 
-q{
-    color:$background;
-    font-family:'Poppins';
-}
-
-
-
-li{
-    font-family:"Poppins";
-    color:grey;
-}
-
-html{
-   // height: 100%;
-    margin: auto;
-    width: 100%;
-    overflow: auto;
-}
-
-h1{
-    color:$flyux;
-}
-
-
-
-h2{
-    text-align:center;
-    color:$flyuxdark;
-    padding-top:2vh;
-    padding-bottom:2vh;
-    text-transform:uppercase;
-}
-
-p, h2, h3, h1{
-    font-family:Poppins;
-}
-
 section{
-   /* width:100vw;*/
-   // height:85vh;
     margin-left:1vw;
     margin-right:1vw;
     margin-top:8vh;
-   // margin-bottom:8vh;
 }
 
 .section_title{
@@ -136,13 +132,12 @@ section{
     margin-top: 3vh;
     margin-bottom:3vh;
     width:100vw;
-    overflow:visible
-    
+    overflow:visible    
 }
 
 img{
     border-radius:8px;
-   box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
+    box-shadow:$imageShadow;
 }
 
 
@@ -157,13 +152,12 @@ img{
     border-radius:8px;
     background-repeat:no-repeat;
     background-image:url("../media/Fionnuala_b&w.jpg"); 
-    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
+    box-shadow:$imageShadow
 }
 
 #megan, #fionnuala, #michele{
     width: 100%;
     height:100%;
-   // border-radius: 8px;
 }
 
 #megan{
@@ -237,13 +231,8 @@ img{
 }
 
 
-
-
-
-
 .pdf_link{
     background-color:$flyux;
-    //box-shadow:5px 10px 10px 10px rgb(138, 157, 160); ;
     border-radius:4px;
     border-style:none;
     padding-left:1vw;
@@ -254,78 +243,13 @@ img{
    
 }
 
-#cb{
-    color:white;
-    font-family:Poppins;
-    font-size:5px;
-
-}
 
 .cb_img_parent{
     overflow: hidden;
     width:500px;
     height:65vh;
-   // margin-left:1vw;
-    //position:absolute;
+   
 }
-
-#me{
-    background-image: url('../media/ad_b&w_1.png');
-    background-repeat:no-repeat;
-    background-size:contain;
-    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
-    border-radius: 8px;
-}
-
-#detail_1{
-    background-image: url('../media/ad_extras.png');
-    background-repeat:no-repeat;
-    background-size:contain;
-    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
-    border-radius: 8px;
-}
-
-#detail_2{
-    background-image: url('../media/ad_layover.png');
-    background-repeat:no-repeat;
-    background-size:contain;
-    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
-    border-radius: 8px;
-}
-
-#detail_3{
-    background-image: url('../media/ad_priceclarity.png');
-    background-repeat:no-repeat;
-    background-size:contain;
-    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
-    border-radius: 8px;
-}
-
-#detail_4{
-    background-image: url('../media/ad_guidance.png');
-    background-repeat:no-repeat;
-    background-size:contain;
-    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
-    border-radius: 8px;
-}
-
-#ugo{
-    background-image: url('../media/ad_b&w_2.png');
-    background-repeat:no-repeat;
-    background-size:contain;
-    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
-    border-radius: 8px;
-}
-
-#cjm{
-    background-image: url('../media/customer_journey_map.jpg');
-    background-repeat:no-repeat;
-    background-size:contain;
-    box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
-    border-radius: 8px; 
-}
-
-
 
 
 @media(max-width:599px){
@@ -346,7 +270,7 @@ img{
 
 #logo{
     width:90vw;
-  margin-left:3vw;
+    margin-left:3vw;
     height:40vh;
     border-bottom:2px solid $flyux;
 }
@@ -357,23 +281,22 @@ h2{
 
 h3{
     font-size:20px;
-    font-weight:bold;
-    text-align:center;
+   
+}
+
+q{
+    font-size:17px;
+   
 }
 
 section, article{
     display:flex;
     flex-direction:column;
     justify-content: space-between;
-   // margin-top:10vh;
     margin-bottom:13vh;
 }
 
-#project_main{
-    background-color: white;
-    
-    
-}
+
 
 #compbench{
     width:325px;
@@ -404,8 +327,6 @@ section, article{
     margin-bottom:2vh;
 }
 
-
-
 .d_text{
     display:none;
 }
@@ -432,11 +353,7 @@ section, article{
     
 }
 
-q{
-    font-size:17px;
-    font-weight:bold;
-    font-style:italic;
-}
+
 
 .quote{
     margin-top:6vh;
@@ -448,7 +365,7 @@ q{
 
     #logo{
         width:90vw;
-       margin-left:5vw;
+        margin-left:5vw;
         height:40vh;
         padding-bottom:3vh;
         border-bottom:3px solid $flyux;
@@ -472,9 +389,14 @@ q{
 
     h3{
         font-size:40px;
-        font-weight:bold;
-        text-align:center;
+        
     }
+
+    
+q{
+    font-size:25px;
+   
+}
 
     section, article{
         margin-bottom:10vh;
@@ -505,10 +427,7 @@ q{
     display:none;
 }
 
-.project_main{
-    //height:300px;
-    background-color: white;
-}
+
 
 .user_test_images_1{
     width:85vw;
@@ -516,11 +435,6 @@ q{
     margin-left:5vw;
 }
 
-q{
-    font-size:25px;
-    font-weight:bold;
-    font-style:italic;
-}
 
 .quote{
     margin-top:10vh;
@@ -546,7 +460,7 @@ q{
 
 
 
-#ipad, #ipad3{
+#affinity_pics_1, #affinity_pics_3{
     display:flex;
     flex-direction:row;
 }
@@ -559,40 +473,71 @@ q{
 }
 
 @media(min-width:992px)and(max-width:1199px){
-
-    #logo{
-        width:50vw;
-       margin-right:10vw;
-        height:40vh;
+    .parallax_top{
+        background-image:url("../media/flyux_header.jpg");
+        min-height:610px;
+        background-attachment:fixed;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    
+    .parallax_bottom{
+        height:700px;
+        background-image:url("../media/flyux_footer.jpg");
+        background-attachment:fixed;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover; 
     }
 
+    #intro{
+        font-size:18px;
+        color:rgb(112, 109, 109);
+        padding-top:3vh;
+        margin-right:10vw;
+        margin-bottom:3vh;
+        padding-bottom:0%;
+    }
     
 #logo{
+    width:50vw;
+    margin-right:10vw;
+    height:40vh;
     border-right:2px solid $flyux;
     padding-bottom:8vh;
     margin-bottom:3vh;
 }
 
 
-    section{
+section{
         display:flex;
-        flex-direction: row;
+        flex-direction:row;
         justify-content:space-between;
         margin-bottom:10vh;
     }
 
-    article{
+article{
         display:flex;
         flex-direction:row-reverse;
         justify-content: space-between;
         margin-bottom:13vh;
     }
 
+    h2{
+        font-size:30px;
+    }
+
+
     h3{
         font-size:45px;
-        font-weight:bold;
         margin-top:1vh;
        
+    }
+
+    q{
+        font-size:25px;
+      
     }
 
     #project_main{
@@ -602,10 +547,7 @@ q{
         
     }
 
-    h2{
-        font-size:30px;
-    }
-
+    
     .left_text{
         float:left;
         width:45vw;
@@ -636,74 +578,19 @@ q{
         width:830px;
         height:410px;
     }
-    
-
-    
-
-    
-
-    
-
-    
-
-    .survey_img{
-        float:right;
-    }
-
-  
-
-    /*.user_test_parent_1{
-        width:35vw;
-        height:50vh;
-        background-color: $background;
-        float:left;
-        border-radius:8px;
-        box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
-        //position:fixed;
-        overflow:hidden;
-        margin-right:5vw;
-    }*/
-
-    .user_test_images_1{
-        width:40vw;
-        height:60vh;
-    }
-
-    
-
+   
    .user_img_parent{
         width:35vw;
         height:50vh;
         background-color: $background;
-        //float:right;
         border-radius:8px;
-        box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
-        //position:fixed;
+        box-shadow:$imageShadow;
         overflow:hidden;
         margin-right:35vw;
     }
     
 
-    
-    
 
-.parallax_top{
-    background-image:url("../media/flyux_header.jpg");
-    min-height:610px;
-    background-attachment:fixed;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-}
-
-.parallax_bottom{
-    height:700px;
-    background-image:url("../media/flyux_footer.jpg");
-    background-attachment:fixed;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover; 
-}
 
 #flyux_title{
     display:flex;
@@ -711,23 +598,11 @@ q{
     height:20vh;
     padding-bottom:50vh;
     
-   // margin-top:50vh;
 }
 
-#intro{
-    font-size:18px;
-    color:rgb(112, 109, 109);
-    padding-top:3vh;
-    margin-right:10vw;
-    margin-bottom:3vh;
-    padding-bottom:0%;
-}
 
-q{
-    font-size:25px;
-    font-weight:bold;
-    font-style:italic;
-}
+
+
 
 .quote{
     margin-top:5vh;
@@ -739,7 +614,7 @@ q{
     margin-right:100px;
 }  
 
-#ipad, #ipad3{
+#affinity_pics_3, #affinity_pics_3{
     display:flex;
     flex-direction:row;
 }
@@ -754,7 +629,7 @@ q{
 
 
 
-#ipad2{
+#affinity_pics_2{
     display:flex;
     flex-direction: row;
     margin-left:4vw;
@@ -773,9 +648,6 @@ q{
     margin-bottom:2vh; 
 }
 
-.section_title{
-    margin-top:0%;
-}
 
 #key_points{
     display:none;
@@ -786,18 +658,39 @@ q{
 
 @media(min-width:1200px){
 
-    #logo{
-        width:50vw;
-       margin-right:10vw;
-        height:40vh;
+    #project_main{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
     }
 
+    .parallax_top{
+        background-image:url("../media/flyux_header.jpg");
+        min-height:610px;
+        background-attachment:fixed;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
     
-#logo{
-    border-right:2px solid $flyux;
-    padding-bottom:8vh;
-    margin-bottom:3vh;
-}
+    .parallax_bottom{
+        height:700px;
+        background-image:url("../media/flyux_footer.jpg");
+        background-attachment:fixed;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover; 
+    }
+
+    #logo{
+        width:50vw;
+        margin-right:10vw;
+        height:40vh;
+        border-right:2px solid $flyux;
+       padding-bottom:8vh;
+       margin-bottom:3vh;
+    } 
 
 
     section{
@@ -814,21 +707,18 @@ q{
         margin-bottom:13vh;
     }
 
+    h2{
+        font-size:30px;
+    }
+
     h3{
         font-size:45px;
-        font-weight:bold;
        
     }
 
-    #project_main{
-        display:flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        
-    }
-
-    h2{
-        font-size:30px;
+    q{
+        font-size:25px;
+    
     }
 
     .left_text{
@@ -861,82 +751,25 @@ q{
         width:830px;
         height:455px;
     }
-    
-
-    
-
-    
-
-    
-
-    
-
-    .survey_img{
-        float:right;
-    }
-
-   
-
-    /*.user_test_parent_1{
-        width:35vw;
-        height:50vh;
-        background-color: $background;
-        float:left;
-        border-radius:8px;
-        box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
-        //position:fixed;
-        overflow:hidden;
-        margin-right:5vw;
-    }*/
-
-    .user_test_images_1{
-        width:40vw;
-        height:60vh;
-    }
-
-    
 
    .user_img_parent{
         width:35vw;
         height:50vh;
         background-color: $background;
-        //float:right;
         border-radius:8px;
-        box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
-        //position:fixed;
+        box-shadow:$imageShadow;
         overflow:hidden;
         margin-right:35vw;
     }
     
 
-    
-    
 
-.parallax_top{
-    background-image:url("../media/flyux_header.jpg");
-    min-height:610px;
-    background-attachment:fixed;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-}
-
-.parallax_bottom{
-    height:700px;
-    background-image:url("../media/flyux_footer.jpg");
-    background-attachment:fixed;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover; 
-}
 
 #flyux_title{
     display:flex;
     flex-direction:row;
     height:20vh;
     padding-bottom:50vh;
-    
-   // margin-top:50vh;
 }
 
 #intro{
@@ -946,11 +779,7 @@ q{
     margin-right:10vw;
 }
 
-q{
-    font-size:25px;
-    font-weight:bold;
-    font-style:italic;
-}
+
 
 .quote{
     margin-top:5vh;
@@ -962,16 +791,21 @@ q{
     margin-right:100px;
 }  
 
-#ipad, #ipad3{
+#affinity_pics_1, #affinity_pics_3{
     display:flex;
     flex-direction:row;
     margin-left:6vw;
 }
 
+#affinity_pics_2{
+    display:flex;
+    flex-direction: row;
+    margin-left:4vw;
+}
+
 .half_image{
     width:23vw;
     height:65vh;
-    //margin-left:2vw;
     margin-bottom:2vh;
 }
 
@@ -989,11 +823,6 @@ q{
     margin-right:2vw;
 }
 
-#ipad2{
-    display:flex;
-    flex-direction: row;
-    margin-left:4vw;
-}
 
 #key_points{
     display:none;
