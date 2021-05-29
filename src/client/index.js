@@ -46,7 +46,6 @@ import './media/Michele_6.png'
 
 import './media/ad_b&w_1.png'
 import './media/ad_b&w_2.png'
-import './media/ad_baggage.png'
 import './media/ad_extras.png'
 import './media/ad_guidance.png'
 import './media/ad_layover.png'
