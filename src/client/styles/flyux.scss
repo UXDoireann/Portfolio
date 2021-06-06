@@ -3,6 +3,7 @@ $flyux:#228691;
 $flyuxlowop:#9cc7cc;
 $flyuxsection:#4c8f99;
 $flyuxdark:#0d3035;
+$flyuxlowlowop:#dce6e7;
 
 $background:#2E7D9B;
 $compbench:rgb(218,242,245);
@@ -55,7 +56,9 @@ q{
 
 
 
-section, article{
+
+
+article{
     opacity:0;
     transition: 2s;
     transition-timing-function:ease-out;
@@ -72,6 +75,11 @@ section, article{
     transition-timing-function:ease-out;
 }
 
+.quote{
+    background-color:$flyuxlowlowop;
+    padding-top:2vh;
+    padding-bottom:2vh;
+}
 .your-active-class{
     opacity:1;
     transition: 1.5s;
@@ -121,15 +129,11 @@ section, article{
 
 }
 
-section{
-    margin-left:1vw;
-    margin-right:1vw;
-    margin-top:8vh;
-}
+
 
 .section_title{
     background-color:$flyuxlowop;
-    margin-top: 3vh;
+    margin-top: 0%;
     margin-bottom:3vh;
     width:100vw;
     overflow:visible    
@@ -252,6 +256,10 @@ img{
 }
 
 
+
+
+
+
 @media(max-width:599px){
 
     .parallax_top{
@@ -289,7 +297,7 @@ q{
    
 }
 
-section, article{
+article{
     display:flex;
     flex-direction:column;
     justify-content: space-between;
@@ -358,6 +366,12 @@ section, article{
 .quote{
     margin-top:6vh;
     margin-bottom:6vh;
+}
+
+#flow{
+    width:85vw;
+    height:33vh;
+    margin-left:5vw;
 }
 
 }
@@ -469,6 +483,12 @@ q{
     display:none;
 }
 
+#flow{
+    width:85vw;
+    height:45vh;
+    margin-left:5vw;
+}
+
 
 }
 
@@ -510,18 +530,13 @@ q{
 }
 
 
-section{
-        display:flex;
-        flex-direction:row;
-        justify-content:space-between;
-        margin-bottom:10vh;
-    }
+
 
 article{
         display:flex;
         flex-direction:row-reverse;
         justify-content: space-between;
-        margin-bottom:13vh;
+        margin-bottom:10vh;
     }
 
     h2{
@@ -571,6 +586,13 @@ article{
         width:45vw;
         height:50vh;
     }
+
+    #flow{
+        margin-right:5vw;
+        margin-left:5vw;
+        width:45vw;
+        height:50vh;
+    }
  
     #compbench{
         margin-right:5vw;
@@ -596,7 +618,7 @@ article{
     display:flex;
     flex-direction:row;
     height:20vh;
-    padding-bottom:50vh;
+    //padding-bottom:50vh;
     
 }
 
@@ -693,16 +715,11 @@ article{
     } 
 
 
-    section{
-        display:flex;
-        flex-direction: row;
-        justify-content:space-between;
-        margin-bottom:10vh;
-    }
+  
 
     article{
         display:flex;
-        flex-direction:row-reverse;
+        flex-direction:row;
         justify-content: space-between;
         margin-bottom:13vh;
     }
@@ -744,6 +761,14 @@ article{
         width:40vw;
         height:60vh;
     }
+
+    #flow{
+        margin-right:1vw;
+        margin-left:1vw;
+        width:40vw;
+        height:60vh;
+    }
+ 
  
     #compbench{
         margin-right:5vw;
@@ -755,6 +780,7 @@ article{
    .user_img_parent{
         width:35vw;
         height:50vh;
+        margin-left:33vw;
         background-color: $background;
         border-radius:8px;
         box-shadow:$imageShadow;
@@ -769,7 +795,7 @@ article{
     display:flex;
     flex-direction:row;
     height:20vh;
-    padding-bottom:50vh;
+    //padding-bottom:50vh;
 }
 
 #intro{
@@ -785,6 +811,7 @@ article{
     margin-top:5vh;
     margin-bottom:15vh;
     text-align:center;
+    //background-color:$flyuxlowop;
 }
 
 #megan{

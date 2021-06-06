@@ -3,7 +3,7 @@
 
 
 /* Add class 'active' to section when near top of viewport*/
-const activeSection = () => {
+/*const activeSection = () => {
     console.log('scrolling');
    const allSections = document.querySelectorAll('section');
     for (let m =0; m < allSections.length; m++) {
@@ -16,7 +16,7 @@ const activeSection = () => {
             section.classList.remove("your-active-class");
            
         }
-    }}
+    }}*/
 
 //add active section to article elements
     const activeArticle = ()=>{
@@ -44,7 +44,7 @@ const activeQuote = ()=>{
         const quote = allQuotes[a]
 
         const view = quote.getBoundingClientRect();
-        if (view.top <=350 && view.bottom >= 30) {
+        if (view.top <=300 && view.bottom >= 50) {
             quote.classList.add("your-active-class");
             
         } else {
@@ -77,7 +77,7 @@ const activeTitle = ()=>{
 }
 
 
-export {activeSection}
+//export {activeSection}
 export {activeArticle}
 export {activeQuote}
 export{activeTitle}

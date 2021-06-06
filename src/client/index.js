@@ -1,6 +1,6 @@
 
 import {openNav} from './js/Nav.js'
-import {activeSection} from './js/fadein.js'
+//import {activeSection} from './js/fadein.js'
 import {activeArticle} from './js/fadein.js'
 import {activeQuote} from './js/fadein.js'
 import {activeTitle} from './js/fadein.js'
@@ -9,7 +9,7 @@ import {activeTitle} from './js/fadein.js'
 document.getElementById('burger').addEventListener('click', openNav);
 
 //Event Listener for Opacity on Scroll
-document.addEventListener('scroll', activeSection)
+//document.addEventListener('scroll', activeSection)
 document.addEventListener('scroll', activeArticle)
 document.addEventListener('scroll', activeQuote)
 document.addEventListener('scroll', activeTitle)
@@ -52,6 +52,7 @@ import './media/ad_layover.png'
 import './media/ad_priceclarity.png'
 import './media/whole_diagram.png'
 import './media/customer_journey_map.jpg'
+import './media/flow_diagram_pic.png'
 
 
 
@@ -61,9 +62,10 @@ import './media/logo.png'
 import './media/CBAirlines.pdf'
 import './media/DoireannNiGhrioghair_Project5.pdf'
 import './media/CustomerJourneyMap.pdf'
+import './media/flow_diagram.pdf'
 
 export{openNav}
-export{activeSection}
+//export{activeSection}
 export{activeArticle}
 export{activeQuote}
 export{activeTitle}
