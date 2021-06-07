@@ -379,9 +379,9 @@ article{
 
 
 #compbench{
-    width:325px;
-    height:230px;
-    margin-left:3vw;
+    width:85vw;
+    height:27vh;
+    margin-left:4vw;
     margin-top:3vh;
     margin-bottom:3vh;
 }
@@ -468,8 +468,29 @@ article{
         margin-left:5vw;
         height:40vh;
         padding-bottom:3vh;
+
+    }
+
+    .parallax_top{
+       display:none;
+      
+    }
+
+    #top_image_mobile{
+        background-image:url("../media/flyux_header.jpg");
+        min-height:300px;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+        border-top:3px solid $flyux;
         border-bottom:3px solid $flyux;
     }
+
+    #landing{
+        margin-bottom:3vh;
+        opacity:1;
+    }
+
 
     #compbench{
         width:650px;
@@ -477,10 +498,27 @@ article{
         margin-left:3vw;
     }
 
+    .pdf_link{
+        margin-left:15vw;
+        width:70vw;
+    }
+
+    .link{
+        margin-left:2vw;
+        font-size:25px;
+    }
+
     .section_image{
         width:85vw;
         height:50vh;
         margin-left:5vw;
+        margin-bottom:3vh;
+    
+    }
+
+    #ipad1, #ipad2{
+        width:50vw;
+        height:28.5vh;
     }
 
     h2{
@@ -502,10 +540,17 @@ q{
         margin-bottom:20vh;
     }
 
+    #column_reverse_1, #column_reverse_2{
+        display:flex;
+        flex-direction:column-reverse;
+        padding-bottom:5vh;
+        margin-bottom:20vh;
+    }
+
     .user_img_parent{
-        width:85vw;
+        width:70vw;
         height:37vh;
-        margin-left:10vw;
+        margin-left:15vw;
         border-radius:8px;
         box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
         background-color: $background;
@@ -517,14 +562,7 @@ q{
         margin-bottom:10vh;
     }
 
-    .parallax_top{
-        background-image:url("../media/flyux_header.jpg");
-        min-height:300px;
-        background-position:center;
-        background-repeat:no-repeat;
-        background-size:cover;
-    }
-
+  
 
 
 .parallax_bottom{
@@ -562,7 +600,9 @@ q{
     margin-bottom:2vh;
 }
 
-
+#af{
+    margin-bottom: 20vh;
+}
 
 #affinity_pics_1, #affinity_pics_3{
     display:flex;
