@@ -13,6 +13,15 @@ $imageShadow:5px 10px 10px 10px rgb(138, 157, 160);
 
 
 
+#landing{
+    background-color: white;
+
+   
+}
+
+
+
+
 
 html{
      margin: auto;
@@ -31,7 +40,7 @@ html{
 
  h2{
     text-align:center;
-    color:$flyuxdark;
+    color:$flyux;
     padding-top:2vh;
     padding-bottom:2vh;
     text-transform:uppercase;
@@ -65,6 +74,7 @@ article{
     color:grey;
     font-family:'Poppins';
     
+    
 
 }
 
@@ -80,6 +90,7 @@ article{
     padding-top:2vh;
     padding-bottom:2vh;
 }
+
 .your-active-class{
     opacity:1;
     transition: 1.5s;
@@ -132,11 +143,15 @@ article{
 
 
 .section_title{
-    background-color:$flyuxlowop;
+    border-bottom:1px solid $flyux;
     margin-top: 0%;
-    margin-bottom:3vh;
-    width:100vw;
-    overflow:visible    
+    margin-bottom:10vh;
+    width:70vw;
+    margin-left:10vw;
+    margin-right:10vw;
+    font-family:"Poppins";
+    color:$flyux;
+      
 }
 
 img{
@@ -147,7 +162,7 @@ img{
 
 #project_main{
     background-color: white;
-    border-top: 3px solid $flyux;
+  
    
 }
 
@@ -167,12 +182,21 @@ img{
 #megan{
     animation-name:megan;
     -webkit-animation-name:megan;
+    -moz-animation-name:megan;
+    -ms-animation-name:megan;
+    -o-animation-name:megan;
     background-size:contain;
     background-repeat:no-repeat;
     animation-duration:6s;
     -webkit-animation-duration:6s;
+    -moz-animation-duration:6s;
+    -o-animation-duration:6s;
+    -ms-animation-duration:6s;
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite;
+    -o-animation-iteration-count:infinite;
+    -ms-animation-iteration-count:infinite;
     -webkit-animation-timing-function: steps(1,end);
     animation-timing-function: steps(1,end);
 }
@@ -185,6 +209,15 @@ img{
     80%{background-image:url("../media/Megan_5.png");}
     100%{background-image:url("../media/Megan_6.png");}
 
+}
+
+@-webkit-keyframes megan{
+    0%{background-image:url("../media/Megan_1.png");}
+    20%{background-image:url("../media/Megan_2.png");}
+    40%{background-image:url("../media/Megan_3.png");}
+    60%{background-image:url("../media/Megan_4.png");}
+    80%{background-image:url("../media/Megan_5.png");}
+    100%{background-image:url("../media/Megan_6.png");}
 }
 
 #fionnuala{
@@ -248,12 +281,12 @@ img{
 }
 
 
-.cb_img_parent{
+/*.cb_img_parent{
     overflow: hidden;
     width:500px;
     height:65vh;
    
-}
+}*/
 
 
 
@@ -262,26 +295,50 @@ img{
 
 @media(max-width:599px){
 
-    .parallax_top{
+    #landing{
+        margin-bottom:0%;
+        opacity:1;
+        
+    }
+
+    #logo{
+        margin-top:8vh;
+        width:auto;
+        margin-left:10vw;
+        height:180px;
+        margin-bottom:0%;
+        padding-bottom:0%
+       
+    }
+
+    #intro{
+        margin-top:0%;
+        padding-top:2vh;
+        margin-bottom:0%;
+        padding-bottom:3vh;
+    }
+
+    #top_image_mobile{
         background-image:url("../media/flyux_header.jpg");
         min-height:200px;
         background-position:center;
         background-repeat:no-repeat;
         background-size:cover;
+        margin-top:0%;
+        border-top:2px solid $flyux;
+        border-bottom:2px solid $flyux;
     }
 
 
+    .parallax_top{
+        display:none;
+    }
 
 .parallax_bottom{
     display:none;
 }
 
-#logo{
-    width:90vw;
-    margin-left:3vw;
-    height:40vh;
-    border-bottom:2px solid $flyux;
-}
+
 
 h2{
     font-size:20px;
@@ -301,7 +358,22 @@ article{
     display:flex;
     flex-direction:column;
     justify-content: space-between;
-    margin-bottom:13vh;
+    margin-bottom:20vh;
+}
+
+#column_reverse_1,
+#column_reverse_2{
+    display:flex;
+    flex-direction:column-reverse;
+    margin-bottom:20vh;
+}
+
+#af{
+    margin-bottom:20vh;
+}
+
+.quote{
+    padding-left:2vw;
 }
 
 
@@ -314,6 +386,18 @@ article{
     margin-bottom:3vh;
 }
 
+.pdf_link{
+    margin-left:3vw;
+    width:90vw;
+}
+
+.link{
+    font-size:15px;
+    text-align:center;
+    margin-left:2vw;
+    
+}
+
 .section_image{
     width:85vw;
     height:35vh;
@@ -321,6 +405,8 @@ article{
     margin-top:3vh;
     margin-bottom:3vh;
 }
+
+
 
 .user_test_images_1{
     width:85vw;
@@ -339,8 +425,8 @@ article{
     display:none;
 }
 #cjm{
-    width:85vw;
-    height:30vh;
+    width:90vw;
+    height:28vh;
     margin-left:3vw;
     margin-bottom:3vh;
 }
@@ -412,19 +498,23 @@ q{
    
 }
 
-    section, article{
-        margin-bottom:10vh;
+   article{
+        margin-bottom:20vh;
     }
 
     .user_img_parent{
-        width:70vw;
-        height:40vh;
+        width:85vw;
+        height:37vh;
         margin-left:10vw;
         border-radius:8px;
         box-shadow:5px 10px 10px 10px rgb(138, 157, 160);
         background-color: $background;
         overflow:hidden;
         
+    }
+
+    .quote{
+        margin-bottom:10vh;
     }
 
     .parallax_top{
@@ -500,6 +590,7 @@ q{
         background-position:center;
         background-repeat:no-repeat;
         background-size:cover;
+        margin-top:50vh;
     }
     
     .parallax_bottom{
@@ -694,6 +785,7 @@ article{
         background-position:center;
         background-repeat:no-repeat;
         background-size:cover;
+        margin-top:50vh;
     }
     
     .parallax_bottom{
