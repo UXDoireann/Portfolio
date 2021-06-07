@@ -53,6 +53,14 @@ import './media/ad_priceclarity.png'
 import './media/whole_diagram.png'
 import './media/customer_journey_map.jpg'
 import './media/flow_diagram_pic.png'
+import './media/2airports.jpg'
+import './media/13nights.jpg'
+import './media/14nights.jpg'
+import './media/scrollleftorright.jpg'
+import './media/signin.jpg'
+import './media/sittogether.jpg'
+import './media/stopoever.jpg'
+
 
 
 
@@ -63,6 +71,7 @@ import './media/CBAirlines.pdf'
 import './media/DoireannNiGhrioghair_Project5.pdf'
 import './media/CustomerJourneyMap.pdf'
 import './media/flow_diagram.pdf'
+import './media/interaction_design.pdf'
 
 export{openNav}
 //export{activeSection}
