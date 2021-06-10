@@ -147,7 +147,7 @@ article{
     margin-top: 0%;
     margin-bottom:10vh;
     width:70vw;
-    margin-left:10vw;
+    margin-left:13vw;
     margin-right:10vw;
     font-family:"Poppins";
     color:$flyux;
@@ -632,6 +632,10 @@ q{
         background-size:cover;
         margin-top:50vh;
     }
+
+    #top_image_mobile{
+        display:none;
+    }
     
     .parallax_bottom{
         height:700px;
@@ -642,12 +646,18 @@ q{
         background-size:cover; 
     }
 
+    #landing{
+        padding-top:15vh;
+        opacity:1;
+        height:13vh;
+    }
+
     #intro{
         font-size:18px;
         color:rgb(112, 109, 109);
-        padding-top:3vh;
+        padding-top:1vh;
         margin-right:10vw;
-        margin-bottom:3vh;
+        //margin-bottom:3vh;
         padding-bottom:0%;
     }
     
@@ -656,8 +666,9 @@ q{
     margin-right:10vw;
     height:40vh;
     border-right:2px solid $flyux;
-    padding-bottom:8vh;
+    //padding-bottom:8vh;
     margin-bottom:3vh;
+    float:left;
 }
 
 
@@ -665,7 +676,7 @@ q{
 
 article{
         display:flex;
-        flex-direction:row-reverse;
+        flex-direction:row;
         justify-content: space-between;
         margin-bottom:10vh;
     }
@@ -676,14 +687,38 @@ article{
 
 
     h3{
-        font-size:45px;
+        font-size:33px;
         margin-top:1vh;
+        text-align: left;
        
     }
 
+    .pdf_link{
+        width:35vw;
+    }
+
+    .pdf_link:hover{
+        width:35vw;
+        box-shadow: $imageShadow;
+    }
+
+    .link{
+        font-size:20px;
+        margin-left:3vw;
+    }
+
+    .link:hover{
+        font-size:20px;
+        margin-left:3vw;
+    }
+
     q{
-        font-size:25px;
+        font-size:21px;
       
+    }
+
+    p{
+        font-size:16px;
     }
 
     #project_main{
@@ -712,8 +747,8 @@ article{
     }
 
     .section_image{
-        margin-right:5vw;
-        margin-left:5vw;
+        margin-right:2vw;
+        margin-left:2vw;
         width:45vw;
         height:50vh;
     }
@@ -739,7 +774,7 @@ article{
         border-radius:8px;
         box-shadow:$imageShadow;
         overflow:hidden;
-        margin-right:35vw;
+        margin-left:35vw;
     }
     
 
@@ -767,16 +802,17 @@ article{
     margin-right:100px;
 }  
 
-#affinity_pics_3, #affinity_pics_3{
+#affinity_pics_1, #affinity_pics_3{
     display:flex;
     flex-direction:row;
+    margin-bottom:2vh;
 }
 
 .half_image{
     width:22vw;
     height:48vh;
-    margin-left:3vw;
-    margin-bottom:2vh;
+    margin-left:2vw;
+    margin-bottom:4vh;
 }
 
 
@@ -786,12 +822,24 @@ article{
     display:flex;
     flex-direction: row;
     margin-left:4vw;
+    margin-bottom:4vh;
 }
 
 .d_text{
     margin-left:1vw;
     display:flex;
     flex-direction:column;
+    font-size:12px;
+}
+
+#affinity_link{
+    margin-left:35vw;
+}
+
+#affinity_link:hover{
+    width:35vw;
+    box-shadow: $imageShadow;
+
 }
 
 #cjm{
@@ -800,6 +848,12 @@ article{
     margin-left:2vw;
     margin-bottom:2vh; 
 }
+
+#af{
+    margin-bottom:20vh;
+}
+
+
 
 
 #key_points{
@@ -816,6 +870,12 @@ article{
         flex-direction: column;
         justify-content: flex-start;
         
+    }
+
+    #landing{
+        margin-top:7vh;
+        height:17vh;
+        opacity:1;
     }
 
     .parallax_top{
@@ -861,8 +921,29 @@ article{
     }
 
     h3{
-        font-size:45px;
+        font-size:40px;
+        text-align:left;
+        margin-top:0%;
        
+    }
+
+    .pdf_link{
+        width:35vw;
+    }
+
+    .pdf_link:hover{
+        width:35vw;
+        box-shadow: $imageShadow;
+    }
+
+    .link{
+        font-size:22px;
+        margin-left:1vw;
+    }
+
+    .link:hover{
+        font-size:22px;
+        margin-left:1vw;
     }
 
     q{
@@ -887,11 +968,16 @@ article{
     }
 
     .section_image{
-        margin-right:1vw;
-        margin-left:1vw;
+        margin-right:3vw;
+        margin-left:3vw;
         margin-bottom:2vh;
+        margin-top:3vh;
         width:40vw;
         height:60vh;
+    }
+
+    #affinity_link{
+        margin-left:32vw;
     }
 
     #flow{
@@ -966,6 +1052,8 @@ article{
     width:23vw;
     height:65vh;
     margin-bottom:2vh;
+    margin-right:2vw;
+
 }
 
 
