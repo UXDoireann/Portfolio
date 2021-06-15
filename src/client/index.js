@@ -60,6 +60,7 @@ import './media/scrollleftorright.jpg'
 import './media/signin.jpg'
 import './media/sittogether.jpg'
 import './media/stopoever.jpg'
+import './media/interaction_design.png'
 
 
 

@@ -408,6 +408,7 @@ article{
 
 
 
+
 .user_test_images_1{
     width:85vw;
     height:40vh;
@@ -419,6 +420,34 @@ article{
     height:33vh;
     margin-left:12vw;
     margin-bottom:2vh;
+}
+
+.screen{
+    width:80vw;
+    height:95vw;
+    margin-left:7vw;
+}
+
+#interaction{
+    width:85vw;
+    height:27vh;
+    margin-left:3vw;
+}
+
+#interaction_article{
+    padding-bottom:20px;
+}
+
+.sketch{
+    background-color: $flyuxlowlowop;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-bottom:20px;
+}
+
+.sketch_text{
+    border-left:3px solid $flyux;
+    padding-left:5px;
 }
 
 .d_text{
@@ -458,6 +487,14 @@ article{
     width:85vw;
     height:33vh;
     margin-left:5vw;
+}
+
+.sketch_text{
+    margin-left:20px;
+}
+
+.sketch{
+    margin-bottom: 50px;
 }
 
 }
@@ -514,6 +551,42 @@ article{
         margin-left:5vw;
         margin-bottom:3vh;
     
+    }
+
+    #interaction{
+        width:85vw;
+        height:37vh;
+        margin-left:5vw;
+    
+    }
+
+    #interaction_article{
+        padding-bottom:40px;
+    }
+
+    .sketch_text{
+        width:250px;
+        border-left:3px solid $flyux;
+        padding-left:5px;
+    }
+
+    .sketch{
+        margin-left:30px;
+        margin-right:30px;
+        margin-bottom:50px;
+        padding-top:15px;
+        padding-left:15px;
+        padding-right:20px;
+        background-color: $flyuxlowlowop;
+    }
+
+    #ipad_cut_1, #ipad_cut_2{
+        display:none;
+    }
+
+    .paper_row{
+        display:flex;
+        flex-direction: row;
     }
 
     #ipad1, #ipad2{
@@ -591,6 +664,13 @@ q{
     margin-bottom:2vh;
 }
 
+.screen{
+    width:35vw;
+    height:40vh;
+    margin-left:5px;
+}
+
+
 
 
 #cjm{
@@ -619,6 +699,13 @@ q{
     margin-left:5vw;
 }
 
+.sketch_text{
+    margin-left:10px;
+}
+
+.sketch{
+    margin-bottom:30px;
+}
 
 }
 
@@ -753,6 +840,42 @@ article{
         height:50vh;
     }
 
+    #interaction_article{
+        height: 450px;
+    }
+
+    #interaction{
+       margin-top:25px;
+        margin-left:20px;
+        margin-right:20px;
+        width:600px;
+        height:250px;
+    }
+
+    .sketch_text{
+        width:280px;
+        margin-left:20px;
+        padding-left:5px;
+        border-left:3px solid $flyux;
+        background-color: $flyuxlowlowop;
+
+    }
+
+    .sketch{
+        padding-top:20px;
+        padding-left:20px;
+        width:500px;
+        margin-bottom:50px;
+        margin-left:30px;
+        background-color: $flyuxlowlowop;
+        
+    }
+
+    .paper_row{
+        display:flex;
+        flex-direction: row;
+    }
+
     #flow{
         margin-right:5vw;
         margin-left:5vw;
@@ -808,7 +931,7 @@ article{
     margin-bottom:2vh;
 }
 
-.half_image{
+.screen, .half_image{
     width:22vw;
     height:48vh;
     margin-left:2vw;
@@ -986,6 +1109,42 @@ article{
         width:40vw;
         height:60vh;
     }
+
+    #interaction{
+        width:670px;
+        height:380px;
+        margin-left:15px;
+        margin-right:40px;
+    }
+
+    #interaction_article{
+        padding-top:40px;
+    }
+
+
+    .sketch_text{
+        width:300px;
+        padding:5px;
+        border-left:3px solid $flyux;
+        margin-left:10px;
+    }
+
+    .sketch{
+        background-color: $flyuxlowlowop;
+        margin-right:20px;
+        margin-left:20px;
+        padding-top:20px;
+        padding-left:20px;
+
+    }
+
+    .paper_row{
+        display:flex;
+        flex-direction: row;
+        margin-left:30px;
+        margin-bottom:40px;
+    }
+    
  
  
     #compbench{
@@ -1048,7 +1207,7 @@ article{
     margin-left:4vw;
 }
 
-.half_image{
+.screen, .half_image{
     width:23vw;
     height:65vh;
     margin-bottom:2vh;
