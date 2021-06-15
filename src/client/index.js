@@ -61,6 +61,10 @@ import './media/signin.jpg'
 import './media/sittogether.jpg'
 import './media/stopoever.jpg'
 import './media/interaction_design.png'
+import './media/medium_fidelity_prototype.jpg'
+import './media/colm.jpg'
+import './media/high_fidelity.jpg'
+import './media/megan_final.jpg'
 
 
 
