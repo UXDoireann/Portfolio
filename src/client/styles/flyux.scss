@@ -1004,6 +1004,18 @@ article{
 
 @media(min-width:1200px){
 
+    p{
+        font-size:1.25em;
+    }
+
+    ul{
+        font-size:1.25em;
+    }
+
+    q{
+        font-size:1.5em;
+    }
+
     #project_main{
         display:flex;
         flex-direction: column;
@@ -1067,11 +1079,11 @@ article{
     }
 
     .pdf_link{
-        width:35vw;
+        width:400px;
     }
 
     .pdf_link:hover{
-        width:35vw;
+        width:400px;
         box-shadow: $imageShadow;
     }
 
@@ -1157,7 +1169,7 @@ article{
     .paper_row{
         display:flex;
         flex-direction: row;
-        margin-left:30px;
+        margin-left:50px;
         margin-bottom:40px;
     }
     
@@ -1255,7 +1267,10 @@ article{
 }
 
 #hifi{
-    margin-left:20px;
+    width:100%;
+    box-shadow: none;
+    border-radius: 0%;
+
 }
 
 
