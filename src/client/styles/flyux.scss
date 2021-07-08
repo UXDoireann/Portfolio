@@ -67,6 +67,9 @@ q{
 
 
 
+
+
+
 article{
     opacity:0;
     transition: 2s;
@@ -281,12 +284,7 @@ img{
 }
 
 
-/*.cb_img_parent{
-    overflow: hidden;
-    width:500px;
-    height:65vh;
-   
-}*/
+
 
 
 
@@ -302,13 +300,19 @@ img{
     }
 
     #logo{
-        margin-top:8vh;
+        display:none;
+       /* margin-top:8vh;
         width:auto;
         margin-left:10vw;
         height:180px;
         margin-bottom:0%;
-        padding-bottom:0%
+        padding-bottom:0%*/
        
+    }
+
+    p{
+        margin-left:3vw;
+        margin-right:2vw;
     }
 
     #intro{
@@ -316,6 +320,10 @@ img{
         padding-top:2vh;
         margin-bottom:0%;
         padding-bottom:3vh;
+    }
+
+    #start{
+        opacity:1;
     }
 
     #top_image_mobile{
@@ -349,16 +357,22 @@ h3{
    
 }
 
-q{
-    font-size:17px;
+h4{
+    color:$flyuxsection;
+    margin-left:3vw;
    
+}
+
+#uxui{
+    text-align: left;
+    margin-left:3vw;
 }
 
 article{
     display:flex;
     flex-direction:column;
     justify-content: space-between;
-    margin-bottom:20vh;
+    margin-bottom:8vh;
 }
 
 #column_reverse_1,
@@ -497,9 +511,12 @@ article{
     margin-bottom: 50px;
 }
 
-#hifi{
+
+
+#midfi, #hifi{
     width:85vw;
     margin-left:4vw;
+    margin-top:0;
 }
 
 }
@@ -712,11 +729,13 @@ q{
     margin-bottom:30px;
 }
 
-#hifi{
+#midfi, #hifi{
     width:700px;
     margin-left:20px;
     margin-bottom:50px;
 }
+
+
 
 }
 
@@ -918,7 +937,7 @@ article{
     display:flex;
     flex-direction:row;
     height:20vh;
-    //padding-bottom:50vh;
+   
     
 }
 
@@ -994,9 +1013,15 @@ article{
     display:none;
 }
 
+#midfi,
 #hifi{
-    width:1000px;
-    margin-left:15px;
+    width:90vw;
+    margin-left:5vw;
+   
+}
+
+#medfi{
+    text-align: center;
 }
 
 
@@ -1200,7 +1225,7 @@ article{
     display:flex;
     flex-direction:row;
     height:20vh;
-    //padding-bottom:50vh;
+    
 }
 
 #intro{
@@ -1266,11 +1291,17 @@ article{
     margin-left:2vw;
 }
 
+#midfi, 
 #hifi{
-    width:100%;
-    box-shadow: none;
-    border-radius: 0%;
+    width:85vw;
+    margin-left:8vw;
+    //box-shadow: none;
+    //border-radius: 0%;
 
+}
+
+#medfi{
+    text-align: center;
 }
 
 
