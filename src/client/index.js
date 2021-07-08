@@ -65,6 +65,7 @@ import './media/medium_fidelity_prototype.jpg'
 import './media/colm.jpg'
 import './media/high_fidelity.jpg'
 import './media/megan_final.jpg'
+import './media/wireframe.png'
 
 
 
@@ -77,6 +78,7 @@ import './media/DoireannNiGhrioghair_Project5.pdf'
 import './media/CustomerJourneyMap.pdf'
 import './media/flow_diagram.pdf'
 import './media/interaction_design.pdf'
+import './media/wireframes.pdf'
 
 export{openNav}
 //export{activeSection}
