@@ -78,7 +78,7 @@ import './media/DoireannNiGhrioghair_Project5.pdf'
 import './media/CustomerJourneyMap.pdf'
 import './media/flow_diagram.pdf'
 import './media/interaction_design.pdf'
-import './media/wireframes.pdf'
+import './media/Wireframes.pdf'
 
 export{openNav}
 //export{activeSection}
