@@ -34,11 +34,72 @@
 }
 
 */
+@media(max-width:599px){
 
+   .centre{
+      opacity:1;
+     
+      display: flex;
+      flex-direction:column;
+      margin-top: 50vh;
+      margin-left: 1vw;
+      justify-content: center;
+      align-items: left;
+    
+   
+   }
+   
+   .name{
+      font-size:35px;
+      color:#e91e63;
+     //color:black;
+      font-family:'Poppins';
+      margin-bottom:3px;
+      margin-left:4vw;
+   }
+   
+   
+   .title, .role{
+      display:none;
+   }
+   
+   .job{
+      color:black;
+      margin-left:4vw;
+      font-size:15px;
+   }
+   
+   .see{
+      border-radius:30px;
+      font-size:20px;
+      //font-weight:bold;
+      margin-left:0%;
+      border-style:none;
+      color:white;
+     background-color: #e91e63;
+     //background-color: black;
+      font-family:'Poppins';
+      width:60vw;
+      height:65px;
+      float:left;
+      transition: .1s ease;
+      -webkit-transition: .1s ease;
+   
+   }
+
+   #get_left{
+      margin-left:3vw;
+      width:60vw;
+   }
+
+
+}
+
+@media(min-width: 600px){
 
 .centre{
-   color:#e91e63;
-   font-family:'Poppins';
+   opacity:1;
+  
    display: flex;
    flex-direction:column;
    margin-top: 50vh;
@@ -50,38 +111,50 @@
 }
 
 .name{
-   font-size:25px;
-}
-
-
-
-
-footer{
-  
-   color:#1978d1;
-    bottom:0;
-   position:absolute;
-   width: 100%;
-   height: 2rem; 
-   padding-left:10px;
+   font-size:35px;
+   color:#e91e63;
+  //color:black;
    font-family:'Poppins';
-   -webkit-animation: footer 2s forwards;
-   -o-animation: footer 2s forwards;
-   animation: footer 2s forwards;
-   animation-delay: 5s;
+   margin-bottom:3px;
+   margin-left:4vw;
 }
 
 
+.title, .role{
+   display:none;
+}
+
+.job{
+   color:black;
+   margin-left:4vw;
+}
+
+.see{
+   border-radius:30px;
+   font-size:20px;
+   //font-weight:bold;
+   border-style:none;
+   color:white;
+  background-color: #e91e63;
+  //background-color: black;
+   font-family:'Poppins';
+   width:350px;
+   height:65px;
+   float:left;
+   transition: .1s ease;
+   -webkit-transition: .1s ease;
+
+}
+
+.see:hover{
+ margin-left:0%;
+ box-shadow:10px 7px 10px 7px rgba(141, 104, 138, 0.425);
+}
+
+
+}
  
  
- @keyframes footer{
-     0%{
-         opacity:0;
-     }
-     100%{
-         opacity:1;
-        
-     }
- }
+
 
 
