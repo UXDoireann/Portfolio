@@ -14,6 +14,8 @@ document.addEventListener('scroll', activeArticle)
 document.addEventListener('scroll', activeQuote)
 document.addEventListener('scroll', activeTitle)
 
+
+
 import './styles/about.scss'
 import './styles/contact.scss'
 import './styles/cv.scss'
@@ -22,6 +24,8 @@ import './styles/projects.scss'
 import './styles/menu.scss'
 import './styles/pageload.scss'
 import './styles/flyux.scss'
+
+import './media/arrow.png'
 
 
 import './media/flyux_header.jpg'
