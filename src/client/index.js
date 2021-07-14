@@ -26,6 +26,8 @@ import './styles/pageload.scss'
 import './styles/flyux.scss'
 
 import './media/arrow.png'
+import './media/phone.png'
+import './media/smile.png'
 
 
 import './media/flyux_header.jpg'
