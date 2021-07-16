@@ -29,6 +29,9 @@ import './media/arrow.png'
 import './media/phone.png'
 import './media/smile.png'
 import './media/screen.png'
+import './media/notebook.png'
+import './media/pencil.png'
+import './media/hello.png'
 
 
 import './media/flyux_header.jpg'
