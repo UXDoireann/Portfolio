@@ -28,6 +28,7 @@ import './styles/flyux.scss'
 import './media/arrow.png'
 import './media/phone.png'
 import './media/smile.png'
+import './media/screen.png'
 
 
 import './media/flyux_header.jpg'
