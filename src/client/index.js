@@ -16,14 +16,12 @@ document.addEventListener('scroll', activeTitle)
 
 
 
-import './styles/about.scss'
-import './styles/contact.scss'
-import './styles/cv.scss'
 import './styles/index.scss'
 import './styles/projects.scss'
 import './styles/menu.scss'
 import './styles/pageload.scss'
 import './styles/flyux.scss'
+import './styles/about.scss'
 
 import './media/arrow.png'
 import './media/phone.png'
