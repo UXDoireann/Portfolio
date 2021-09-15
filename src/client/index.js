@@ -90,6 +90,9 @@ import './media/flow_diagram.pdf'
 import './media/interaction_design.pdf'
 import './media/Wireframes.pdf'
 
+import './media/CV.pdf'
+import './media/ArtCV.pdf'
+
 export{openNav}
 //export{activeSection}
 export{activeArticle}
