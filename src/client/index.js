@@ -23,6 +23,9 @@ import './styles/pageload.scss'
 import './styles/flyux.scss'
 import './styles/about.scss'
 
+import './media/screenmini.png'
+import './media/favicon.png'
+
 import './media/arrow.png'
 import './media/phone.png'
 import './media/smile.png'
