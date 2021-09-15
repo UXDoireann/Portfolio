@@ -790,6 +790,40 @@
    100%{right:-900px; top:600px; opacity:0;}
 }
 
+#hellotwo{
+   width:150px;
+   position:absolute;
+   height:80px;
+   //border-radius: 50px;
+   background-image:url('../media/hello.png');
+   background-size:contain;
+   background-repeat:no-repeat;
+   z-index:-1;
+   -webkit-animation-name:hellotwo;
+   animation-name:hellotwo;
+   -webkit-animation-duration:30s;
+   animation-duration:30s;
+   -webkit-animation-iteration-count:infinite;
+   animation-iteration-count: infinite;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   animation-delay:-5s;
+
+}
+
+@keyframes hellotwo{
+   0%{right:-1200px; top:100px; opacity:0;}
+   5%{right:-1200px; top:100px; opacity:1;}
+   25%{right:-1300px; top:100px; opacity:1;}
+   35%{right:-1200px; top:200px; transform: rotate(45deg); opacity:1;}
+   50%{right:-1200px; top:200px; transform: rotate(-45deg);opacity:1;}
+   60%{right:-1200px; top:100px; transform: rotate(45deg); opacity:1;}
+   70%{right:-1200px; top:200px; opacity:1; transform: rotate(-45deg);}
+   95%{right:-1200px; top:300px; opacity:0; transform: rotate(45deg);}
+   96%{right:-1200px; top:200px; opacity:0;}
+   100%{right:-1200px; top:100px; opacity:0;}
+}
+
 }
  
  
