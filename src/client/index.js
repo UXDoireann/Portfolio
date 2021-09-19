@@ -33,6 +33,7 @@ import './media/screen.png'
 import './media/notebook.png'
 import './media/pencil.png'
 import './media/hello.png'
+import './media/bulb.png'
 
 
 import './media/flyux_header.jpg'
