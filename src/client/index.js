@@ -95,6 +95,8 @@ import './media/Wireframes.pdf'
 import './media/CV.pdf'
 import './media/ArtCV.pdf'
 
+import './media/selfie.jpg'
+
 export{openNav}
 //export{activeSection}
 export{activeArticle}
