@@ -64,7 +64,7 @@
    }
    
    .name{
-      font-size:35px;
+      font-size:50px;
       color:#e91e63;
      //color:black;
       font-family:'Poppins';
@@ -77,10 +77,11 @@
       display:none;
    }
    
-   .job{
+   #job{
       color:black;
       margin-left:4vw;
-      font-size:15px;
+      font-size:30px;
+      text-align:left;
    }
    
    .see{
@@ -373,7 +374,7 @@
    .job{
       color:black;
       margin-left:4vw;
-      font-size:15px;
+      font-size:30px;
    }
    
    .see{
@@ -533,9 +534,9 @@
    position:fixed;
    display: flex;
    flex-direction:column;
-   margin-top: 350px;
+   margin-top: 100px;
    margin-left: 10vw;
-   justify-content: center;
+   //justify-content: center;
    align-items: left;
    z-index:11;
  
@@ -543,12 +544,13 @@
 }
 
 .name{
-   font-size:35px;
+   font-size:80px;
    color:#e91e63;
   //color:black;
    font-family:'Poppins';
    margin-bottom:3px;
    margin-left:4vw;
+   font-weight:bold;
    //position:fixed;
 }
 
@@ -560,6 +562,8 @@
 .job{
    color:black;
    margin-left:4vw;
+   font-size: 50px;
+   font-weight:bold;
   // position:fixed;
 }
 
