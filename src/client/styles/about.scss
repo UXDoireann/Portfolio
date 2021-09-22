@@ -1,7 +1,7 @@
  .projects{
     font-family:"Poppins";
     color:#e91e63;
-    margin-left:5vw;
+   margin-left:5vw;
     margin-top:5vh;
     font-size:30px;
     font-weight:bolder;
@@ -27,27 +27,9 @@
     align-items: center;
 }
 
-#hi{
-    color:#e91e63;
-    font-weight:bolder;
-    font-size:45px;
-    text-align: left;
-}
 
-#moi{
-    margin-left:3vw;
-    margin-right:3vw;
-    font-family:'Poppins';
-    text-align: left;
-    
-}
 
-#about{
-    color:rgb(5, 5, 5);
-    font-weight:bolder;
-    font-size:35px;
-    text-align: left;
-}
+
 
 #abouttext{
     color:black;
@@ -69,6 +51,31 @@ footer{
 
 
 @media(max-width:599px){
+
+    #hi{
+        color:#e91e63;
+        font-weight:bolder;
+        font-size:30px;
+        text-align: left;
+    }
+    #moi{
+        margin-left:1vw;
+        margin-right:1vw;
+        font-family:'Poppins';
+        text-align: left;
+        
+    }
+
+    #abouttext{
+        text-align: left;
+    }
+    
+    #about{
+        color:#e91e63;
+        font-weight:bolder;
+        font-size:20px;
+        text-align: left;
+    }
     #menu{
         margin-right:5px;
       //  position:;
@@ -98,6 +105,35 @@ footer{
 }
 
 @media(min-width:600px)and(max-width:999px){
+
+    html{
+        margin: auto;
+        width: 100%;
+        overflow: auto;
+    }
+
+    #hi{
+        color:#e91e63;
+        font-weight:bolder;
+        font-size:35px;
+        text-align: left;
+    }
+
+    #moi{
+        margin-left:3vw;
+        margin-right:3vw;
+        font-family:'Poppins';
+        text-align: left;
+        
+    }
+    
+    #about{
+        color:rgb(189, 35, 120);
+        font-weight:bolder;
+        font-size:35px;
+        text-align: left;
+        margin-left:3vw;
+    }
     .cv{
         border-radius:30px;
         font-size:20px;
@@ -122,6 +158,27 @@ footer{
 }
 
 @media(min-width:1000px){
+    #hi{
+        color:#e91e63;
+        font-weight:bolder;
+        font-size:45px;
+        text-align: left;
+    }
+    #moi{
+        margin-left:3vw;
+        margin-right:3vw;
+        font-family:'Poppins';
+        text-align: left;
+        
+    }
+    
+    #about{
+        color:#e91e63;
+        font-weight:bolder;
+        font-size:30px;
+        text-align: left;
+    }
+
     #selfie{
         margin-left:40vw;
         margin-top:5vw;
