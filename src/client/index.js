@@ -96,6 +96,7 @@ import './media/CV.pdf'
 import './media/ArtCV.pdf'
 
 import './media/selfie.jpg'
+import './media/Doireann_Ni_GhrioghairUX_CV.pdf'
 
 export{openNav}
 //export{activeSection}
