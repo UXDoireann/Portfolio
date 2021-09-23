@@ -24,7 +24,7 @@
     flex-direction: row;
     justify-content: space-evenly;*/
     color:#e91e63;
-    font-size:20px;
+   // font-size:20px;
     background-color: rgba(255, 255, 255, 0.542);
     z-index:9; 
    //float:left;
@@ -39,7 +39,7 @@
 .project_details{
     font-family:Poppins;
     color:black;
-    font-size:20px;
+    //font-size:20px;
    position: absolute;
     bottom: 0;
     z-index:11;
@@ -67,6 +67,18 @@
  
  
  @media(max-width:599px){
+
+    .project_title{
+        font-size:25px;
+        display:flex;
+        flex-direction: row;
+    }
+
+    .project_details{
+        font-size:14px;
+        margin-left:2vw;
+
+    }
 
     
 
@@ -140,7 +152,7 @@
     .project_details{
         font-family:Poppins;
         color:black;
-        font-size:18px;
+        font-size:10px;
        position: absolute;
         bottom: 0;
         padding-left:2vw;
