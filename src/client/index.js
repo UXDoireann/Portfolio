@@ -15,7 +15,6 @@ document.addEventListener('scroll', activeQuote)
 document.addEventListener('scroll', activeTitle)
 
 
-
 import './styles/index.scss'
 import './styles/projects.scss'
 import './styles/menu.scss'
@@ -23,9 +22,9 @@ import './styles/pageload.scss'
 import './styles/flyux.scss'
 import './styles/about.scss'
 
-import './media/screenmini.png'
-import './media/favicon.png'
 
+
+//Animation illustrations
 import './media/arrow.png'
 import './media/phone.png'
 import './media/smile.png'
@@ -35,7 +34,7 @@ import './media/pencil.png'
 import './media/hello.png'
 import './media/bulb.png'
 
-
+//FlyUX media
 import './media/flyux_header.jpg'
 import './media/flyux_footer.jpg'
 
@@ -78,13 +77,10 @@ import './media/colm.jpg'
 import './media/high_fidelity.jpg'
 import './media/megan_final.jpg'
 import './media/wireframe.png'
-
-
-
-
-
 import './media/logo.png'
 
+
+//FlyUX pdfs
 import './media/CBAirlines.pdf'
 import './media/DoireannNiGhrioghair_Project5.pdf'
 import './media/CustomerJourneyMap.pdf'
@@ -92,11 +88,43 @@ import './media/flow_diagram.pdf'
 import './media/interaction_design.pdf'
 import './media/Wireframes.pdf'
 
+//About & CV media
 import './media/CV.pdf'
 import './media/ArtCV.pdf'
-
 import './media/selfie.jpg'
 import './media/Doireann_Ni_GhrioghairUX_CV.pdf'
+import './media/favicon.png'
+
+//Swim App Media
+
+import './media/Swim_App_Survey.png'
+
+import './media/SwimApps.png'
+import './media/Swim_App_Competitive_Benchmarking_1.png'
+import './media/Swim_App_Competitive_Benchmarking_2.png'
+import './media/Swim_App_Competitive_Benchmarking_3.png'
+import './media/Swim_App_Competitive_Benchmarking_4.png'
+import './media/Swim_App_Competitive_Benchmarking_5.png'
+import './media/Swim_App_Competitive_Benchmarking_6.png'
+
+import './media/Swim_App_miro_1.png'
+import './media/Swim_App_miro_2.png'
+import './media/Swim_App_affinity_diagram_1.png'
+import './media/Swim_App_affinity_diagram_1_2.png'
+import './media/Swim_App_affinity_diagram_2.png'
+import './media/Swim_App_affinity_diagram_3.png'
+import './media/Swim_App_affinity_diagram_4.png'
+import './media/Swim_App_affinity_diagram_4_2.png'
+import './media/Swim_App_affinity_diagram_5.png'
+import './media/Swim_App_affinity_diagram_5_2.png'
+import './media/Swim_App_affinity_diagram_6.png'
+import './media/Swim_App_affinity_diagram_7.png'
+
+import './media/Swim_App_Comp_Bench.pdf'
+
+
+
+
 
 export{openNav}
 //export{activeSection}
