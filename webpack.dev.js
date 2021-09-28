@@ -58,6 +58,14 @@ plugins:[
     filename:"./projects.html",
   }),
   new HtmlWebPackPlugin({
+    template:"./src/client/views/projects_frontend.html",
+    filename:"./projects_frontend.html",
+  }),
+  new HtmlWebPackPlugin({
+    template:"./src/client/views/projects_graphics.html",
+    filename:"./projects_graphics.html",
+  }),
+  new HtmlWebPackPlugin({
     template:"./src/client/views/flyux.html",
     inject:true,
     filename:"./flyux.html",
