@@ -86,7 +86,7 @@ transition-timing-function: ease-in;
       overflow-x: hidden;
       transition: 0.9s;
       transition-timing-function: ease-in-out;
-      padding-top: 60px;
+      padding-top: 20px;
     }
     
     //on-screen
@@ -96,7 +96,7 @@ transition-timing-function: ease-in;
       color:white;
       font-family:'Poppins';
       text-decoration: none;
-      font-size: 50px;
+      //font-size: 50px;
       padding: 30px 8px 8px 8px;
       transition: 0.4s;
       transition-timing-function:ease-in-out;
@@ -107,14 +107,47 @@ transition-timing-function: ease-in;
 
       .menu_out{
      width:300px;
+     font-size:20px;
       }
-  }
+
+      .menulink{
+        text-decoration: none;
+        color:white;
+        margin-left:5px;
+        margin-top: 10px;
+        margin-bottom:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        font-size:20px;
+        transition: 0.5s;
+        transition-timing-function: ease-out;
+      }
+
+      }
+  
   
       @media(min-width:600px)and(max-width:1199px){
 
        .menu_out{
         width:600px;
+        padding-top:50px;
        }
+
+       
+
+       .menulink{
+        text-decoration: none;
+        color:white;
+        margin-left:5px;
+        margin-top: 20px;
+        margin-bottom:20px;
+        padding-top:20px;
+        padding-bottom:20px;
+        font-size:35px;
+        transition: 0.5s;
+        transition-timing-function: ease-out;
+      }
+
         
       }
   
@@ -122,30 +155,37 @@ transition-timing-function: ease-in;
 
             .menu_out{
             width:850px;
+            padding-top:60px;
             }
 
             
         
-            a:hover{
-              font-size:35px;
+            .menulink:hover{
+              font-size:40px;
               color:rgb(252, 228, 234);
               margin-left:60px;
               transition: 0.5s;
              transition-timing-function:ease-in;
             }
+
+            .menulink{
+              text-decoration: none;
+              color:white;
+              margin-left:50px;
+             // margin-top: 0%;
+              //margin-bottom:0%;
+              //padding-top:0%;
+              //padding-bottom:0%;
+              font-size:35px;
+              transition: 0.5s;
+              transition-timing-function: ease-out;
+            }
   
   
   
     }
   
-    a{
-      text-decoration: none;
-      color:white;
-      margin-left:50px;
-      font-size:30px;
-      transition: 0.5s;
-      transition-timing-function: ease-out;
-    }
+    
       
   
     

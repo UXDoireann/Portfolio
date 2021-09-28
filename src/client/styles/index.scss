@@ -1,39 +1,4 @@
-/*h1{
-    color: purple;
-    margin-left:2%;
-    font-family:sans-serif;
-   // background-color: plum;
-}
-*/
 
-
-/*#page_wrapper{
-   -webkit-animation: fullpage 2s forwards;
-   -o-animation: fullpage 2s forwards;
-   animation: fullpage2s forwards;
-   animation-delay: 5s;
-   
-   
-}
-
-@keyframes fullpage{
-
-   0%{
-      opacity:0;
-
-   }
-
-   100%{
-      margin-top:0;
-      opacity:1;
-      height:100%;
-      width:100%;
-
-   }
-
-}
-
-*/
 .name, .job{
    z-index:5;
 }
@@ -55,8 +20,6 @@
       flex-direction:column;
       margin-top: 2vh;
       margin-left: 1vw;
-     // justify-content: center;
-     //float:top;
       align-items: left;
       position:fixed;
      
