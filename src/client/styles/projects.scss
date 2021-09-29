@@ -56,6 +56,28 @@
 
  }
 
+ #irishSpirits{
+    height:100%;
+    width:100%;
+    z-index:-1;
+    background-image:url("../media/IrishSpiritssmall.jpg") ;
+    background-size:cover;
+    background-repeat:no-repeat; 
+    transition: all .8s; 
+
+ }
+
+ #dhs{
+    height:100%;
+    width:100%;
+    z-index:-1;
+    background-image:url("../media/DHS_profile.jpg") ;
+    background-size:cover;
+    background-repeat:no-repeat; 
+    transition: all .8s; 
+
+ }
+
 
  .subtitle{
      color:rgba(15, 15, 15, 0.973);
@@ -91,7 +113,8 @@
         width:95vw;
         height:300px;
         margin-left:1vw;
-        position:absolute;
+        margin-top:7vh;
+        position:relative;
         
 
       }
@@ -111,6 +134,11 @@
        
     }
 
+    #graphics{
+        display:flex;
+        flex-direction:column;
+    }
+
 
  }
   
@@ -127,9 +155,14 @@
         width:95vw;
         height:85vw;
         margin-left:1.5vw;
-       position:absolute;
+       position:relative;
        overflow: hidden;
 
+    }
+
+    #graphics{
+        display:flex;
+        flex-direction:column;
     }
     
 
@@ -172,13 +205,18 @@
 
     @media(min-width:1200px){
 
+        #graphics{
+            display:flex;
+            flex-direction:row;
+        }
+
         
             .project_parent{
-               margin-top:5vh;
+            margin-top:5vh;
                margin-left:80px;
                width:35vw;
                height:35vw;
-               position:absolute;
+               position:relative;
                overflow: hidden;
 
             }
@@ -197,10 +235,11 @@
                 border-top:2px solid $primaryColor;
                 z-index:9; 
                 float:left;
-                position:absolute;
-                bottom:0;
+               position:absolute;
+               margin-bottom:0;
                padding-left:2vw;
-               width:100%;
+                width:33vw;
+               
                transition:ease .5s;
                -webkit-transition:ease .5s;
          
@@ -210,8 +249,9 @@
                 font-family:Poppins;
                 color:black;
                 font-size:22px;
-               position: absolute;
-                //bottom: 0;
+                position: absolute;
+               // bottom: 0;
+                width:33vw;
                 padding-left:2vw;
                 margin-top:5px;
                 padding-right:2vw;
@@ -242,6 +282,16 @@
 
             .project_parent:hover .flyux,
             .project_parent:focus .flyux{
+                transform:scale(1.2);
+            }
+
+            .project_parent:hover #dhs,
+            .project_parent:focus #dhs{
+                transform:scale(1.2);
+            }
+
+            .project_parent:hover #irishSpirits,
+            .project_parent:focus #irishSpirits{
                 transform:scale(1.2);
             }
 
