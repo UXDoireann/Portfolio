@@ -48,15 +48,18 @@
    // padding-left:2px;
 }
 
- .flyux{
+ .project_image{
     height:100%;
     width:100%;
     z-index:-1;
-    background-image:url("../media/flyux_header.jpg") ;
     background-size:cover;
     background-repeat:no-repeat; 
     transition: all .8s; 
 
+ }
+
+ #flyux{
+    background-image:url("../media/flyux_header.jpg") ;
  }
 
  #irishSpirits{
@@ -285,20 +288,12 @@
 
             
 
-            .project_parent:hover .flyux,
-            .project_parent:focus .flyux{
+            .project_parent:hover .project_image,
+            .project_parent:focus .project_image{
                 transform:scale(1.2);
             }
 
-            .project_parent:hover #dhs,
-            .project_parent:focus #dhs{
-                transform:scale(1.2);
-            }
-
-            .project_parent:hover #irishSpirits,
-            .project_parent:focus #irishSpirits{
-                transform:scale(1.2);
-            }
+            
 
             
            
