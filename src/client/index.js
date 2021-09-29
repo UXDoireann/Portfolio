@@ -36,14 +36,13 @@ import './media/bulb.png'
 
 //Front-End Thumbnails
 import './media/FrontEndCapstone.jpg'
-import './media/FrontEndCatherine.png'
 import './media/FrontEndCatherine2.png'
 import './media/FrontEndNews.png'
 import './media/FrontEndReact.png'
 
 //Graphic Design Thumbnails
 import './media/IrishSpiritssmall.jpg'
-import './media/DHS_profile.jpg'
+import './media/DHS_profile.png'
 
 //FlyUX media
 import './media/flyux_header.jpg'
