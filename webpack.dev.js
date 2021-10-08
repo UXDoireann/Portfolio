@@ -70,6 +70,11 @@ plugins:[
     inject:true,
     filename:"./flyux.html",
   }),
+  new HtmlWebPackPlugin({
+    template:"./src/client/views/swim.html",
+    inject:true,
+    filename:"./swim.html",
+  }),
 
   new CleanWebpackPlugin({
     // Simulate the removal of files

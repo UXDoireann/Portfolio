@@ -74,6 +74,10 @@ plugins:[
     template:"./src/client/views/flyux.html",
     filename:"./flyux.html",
   }),
+  new HtmlWebPackPlugin({
+    template:"./src/client/views/swim.html",
+    filename:"./swim.html",
+  }),
 
   new CleanWebpackPlugin({
     // Simulate the removal of files
