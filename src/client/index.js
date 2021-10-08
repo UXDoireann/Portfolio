@@ -44,6 +44,9 @@ import './media/FrontEndReact.png'
 import './media/IrishSpiritssmall.jpg'
 import './media/DHS_profile.png'
 
+//UX Thumbnails
+import './media/swimmer.png'
+
 //FlyUX media
 import './media/flyux_header.jpg'
 import './media/flyux_footer.jpg'
