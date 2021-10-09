@@ -76,8 +76,29 @@ const activeTitle = ()=>{
     }
 }
 
+//Add active class to section titles
+
+const activeFind = ()=>{
+    const allTitles = document.getElementById('findings');
+    for(let a=0; a < allTitles.length; a++){
+        const title = allTitles[a]
+
+        const view = title.getBoundingClientRect();
+        if (view.top<500 && view.bottom >= 10) {
+            title.classList.add("your-active-class");
+            console.log("a bit of added class");
+        } else {
+            title.classList.remove("your-active-class");
+            console.log("a little less classy");
+        }
+
+
+    }
+}
+
 
 //export {activeSection}
 export {activeArticle}
 export {activeQuote}
 export{activeTitle}
+export {activeFind}

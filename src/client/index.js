@@ -4,6 +4,7 @@ import {openNav} from './js/Nav.js'
 import {activeArticle} from './js/fadein.js'
 import {activeQuote} from './js/fadein.js'
 import {activeTitle} from './js/fadein.js'
+import {activeFind} from './js/fadein.js'
 
 //Event Listener for Menu
 document.getElementById('burger').addEventListener('click', openNav);
@@ -144,3 +145,4 @@ export{openNav}
 export{activeArticle}
 export{activeQuote}
 export{activeTitle}
+export{activeFind}

@@ -32,7 +32,7 @@ html{
      overflow: auto;
  }
 
- p, h2, h3, h1, li, q{
+ p, h2, h3, h1, li, q, h5, h6, h4{
     font-family:'Poppins';
 }
 
@@ -82,6 +82,10 @@ article{
     
     
 
+}
+
+.green{
+    background-color: green;
 }
 
 
@@ -411,13 +415,7 @@ article{
 
 
 
-#compbench{
-    width:85vw;
-    height:27vh;
-    margin-left:4vw;
-    margin-top:3vh;
-    margin-bottom:3vh;
-}
+
 
 .pdf_link{
     margin-left:2.5vw;
@@ -440,6 +438,34 @@ article{
     margin-bottom:3vh;
 }
 
+//compbench
+#compbench{
+    width:85vw;
+    height:27vh;
+    margin-left:4vw;
+    margin-top:3vh;
+    margin-bottom:3vh;
+}
+
+h5{
+    font-size:1.5em;
+    text-align: center;
+
+}
+
+h6{
+    font-size:1.2em;
+    text-align:center;
+    text-decoration: underline;
+}
+
+
+
+.onefind{
+    display:flex;
+    flex-direction:row;
+    align-items: space-evenly;
+}
 
 
 
@@ -573,7 +599,7 @@ article{
         margin-left:5vw;
     }
 
-    ul, p{
+    ul, li, p{
         margin-left:3vw;
         margin-right:3vw;
         font-size: 20px;
@@ -604,11 +630,34 @@ article{
         opacity:1;
     }
 
-
+//compbench
     #compbench{
         width:650px;
         height:460px;
         margin-left:7vw;
+    }
+
+    #cblink{
+        margin-left:10vw;
+        width:auto;
+    }
+
+    h5{
+        font-size:1.8em;
+        text-align:center;
+
+    }
+
+    h6{
+        font-size:1.6em;
+        text-align:center;
+        text-decoration: underline;
+        margin-bottom:1px;
+    }
+
+    .onefind{
+        display: flex;
+        flex-direction:row;
     }
 
     .pdf_link{
@@ -837,6 +886,7 @@ q{
         padding-top:15vh;
         opacity:1;
         height:13vh;
+        padding-bottom:5vh;
     }
 
     #intro{
@@ -857,7 +907,6 @@ q{
     margin-right:10vw;
     height:40vh;
     border-right:2px solid $flyux;
-    //padding-bottom:8vh;
     margin-bottom:3vh;
     float:left;
 }
@@ -884,8 +933,32 @@ article{
        
     }
 
+    h5{
+        font-size:35px;
+        margin-left:5vw;
+    }
+
+    h6{
+        font-size:28px;
+        //text-decoration:underline;
+        text-align:center;
+        margin-top:3px;
+        margin-bottom:2px;
+    }
+
+    #cblink{
+        width:500px;
+        margin-left:30vw;
+        margin-bottom:13vh;
+    }
+
     .pdf_link{
         width:35vw;
+    }
+
+    .onefind{
+        display:flex;
+        flex-direction: row;
     }
 
     .pdf_link:hover{
@@ -908,7 +981,7 @@ article{
       
     }
 
-    ul, p{
+    ul, p, li{
         font-size:18px;
     }
 
@@ -973,7 +1046,7 @@ article{
     .sketch{
         padding-top:20px;
         padding-left:20px;
-        width:500px;
+        width:350px;
         margin-bottom:50px;
         margin-left:30px;
         background-color: $flyuxlowlowop;
@@ -991,12 +1064,20 @@ article{
         width:45vw;
         height:50vh;
     }
+
+    //competitive benchmarking
  
     #compbench{
         margin-right:5vw;
         margin-left:5vw;
         width:830px;
         height:410px;
+    }
+
+
+    .findings{
+        display:flex;
+        flex-direction:row;
     }
    
    .user_img_parent{
@@ -1118,13 +1199,11 @@ article{
 
 @media(min-width:1200px){
 
-    p{
+    p, li{
         font-size:1.25em;
     }
 
-    ul{
-        font-size:1.25em;
-    }
+   
 
     q{
         font-size:1.5em;
@@ -1145,6 +1224,7 @@ article{
         margin-top:7vh;
         height:17vh;
         opacity:1;
+        padding-bottom:5vh;
     }
 
     .parallax_top{
@@ -1286,6 +1366,7 @@ article{
         margin-left:20px;
         padding-top:20px;
         padding-left:20px;
+        width:450px;
 
     }
 
@@ -1301,12 +1382,53 @@ article{
     }
     
  
- 
+ //competitive bench-marking
     #compbench{
         margin-right:5vw;
         margin-left:5vw;
         width:830px;
         height:455px;
+    }
+
+    
+    h5{
+        font-size:35px;
+        margin-left:5vw;
+    }
+
+    h6{
+        font-size:28px;
+        text-align:center;
+        margin-top:3px;
+        margin-bottom:2px;
+    }
+
+    .findings{
+        display:flex;
+        flex-direction:row;
+        align-items: space-evenly;
+    }
+
+    .findwidth{
+        width:300px;
+    }
+
+
+
+    #cblink{
+        width:600px;
+        margin-left:30vw;
+        margin-bottom:13vh;
+        margin-top:8vh;
+    }
+
+    .pdf_link{
+        width:35vw;
+    }
+
+    .onefind{
+        display:flex;
+        flex-direction: row;
     }
 
    .user_img_parent{
