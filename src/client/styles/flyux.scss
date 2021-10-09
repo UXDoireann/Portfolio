@@ -68,7 +68,9 @@ q{
 
 
 
-
+#findings{
+    margin-top:0%;
+}
 
 
 
@@ -651,7 +653,7 @@ h6{
     h6{
         font-size:1.6em;
         text-align:center;
-        text-decoration: underline;
+        //text-decoration: underline;
         margin-bottom:1px;
     }
 
@@ -659,6 +661,11 @@ h6{
         display: flex;
         flex-direction:row;
     }
+
+#cblink{
+    margin-bottom:8vh;
+}
+
 
     .pdf_link{
         margin-left:18vw;
@@ -1046,7 +1053,7 @@ article{
     .sketch{
         padding-top:20px;
         padding-left:20px;
-        width:350px;
+        width:340px;
         margin-bottom:50px;
         margin-left:30px;
         background-color: $flyuxlowlowop;
@@ -1366,7 +1373,7 @@ article{
         margin-left:20px;
         padding-top:20px;
         padding-left:20px;
-        width:450px;
+        width:30vw;
 
     }
 
