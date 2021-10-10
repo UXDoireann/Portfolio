@@ -1176,9 +1176,7 @@ article{
 
 
 
-#key_points{
-    display:none;
-}
+
 
 #midfi,
 #hifi{
@@ -1201,6 +1199,23 @@ article{
     margin-left:4vw;
     margin-right:4vw;
 }
+
+
+#key_points{
+    margin-left:3vw;
+    margin-right:3vw;
+    //background-color: $flyuxlowlowop;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    padding-left:2vw;
+    padding-right:2vw;
+    margin-bottom:5vh;
+    
+    }
+
+    .d_text{
+        display:none;
+     }
 
 }
 
@@ -1518,12 +1533,25 @@ article{
 }
 
 
-#key_points{
+/*#key_points{
     display:none;
+}
+*/
+
+#key_points{
+margin-left:3vw;
+margin-right:3vw;
+//background-color: $flyuxlowlowop;
+padding-top:2vh;
+padding-bottom:2vh;
+padding-left:2vw;
+padding-right:2vw;
+margin-bottom:5vh;
+
 }
 
 .d_text{
-    margin-left:2vw;
+   display:none;
 }
 
 #midfi, 
