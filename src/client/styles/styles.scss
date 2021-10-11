@@ -1,0 +1,227 @@
+$primaryColor: #e91e63;
+$flyux:#228691;
+$flyuxlowop:#9cc7cc;
+$flyuxsection:#4c8f99;
+$flyuxdark:#0d3035;
+$flyuxlowlowop:#dce6e7;
+
+$background:#2E7D9B;
+$compbench:rgb(218,242,245);
+
+$imageShadow:5px 10px 10px 10px rgb(138, 157, 160);
+
+
+html{
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+}
+
+p, h2, h3, h1, li, q, h5, h6, h4{
+   font-family:'Poppins';
+}
+
+
+ h3{
+    color:$flyux;
+}
+
+h2{
+   text-align:center;
+   color:$flyux;
+   padding-top:2vh;
+   padding-bottom:2vh;
+   text-transform:uppercase;
+}
+
+h3{
+   font-weight:bold;
+   text-align:center;
+}
+
+
+p, li{
+   color:black;
+}
+
+
+
+
+q{
+   color:$background;
+   font-weight:bold;
+   font-style:italic;
+}
+
+@media(max-width:599px){
+
+    ul, p{
+        margin-left:3vw;
+        margin-right:3vw;
+        text-align: justify;
+        font-size:.9em;
+    }
+
+    h2{
+        font-size:20px;
+    }
+    
+    h3{
+        font-size:1.5em;
+        margin-top:7vh;
+        border-bottom:2px solid $flyux;
+       
+    }
+    
+    h4{
+        color:$flyuxsection;
+        margin-left:3vw;
+       
+    }
+
+    h5{
+        font-size:1.2em;
+        text-align: center;
+        color:$flyux;
+    
+    }
+    
+    h6{
+        font-size:1.2em;
+        text-align:center;
+        margin-bottom:0%;
+       
+    }
+
+}
+
+@media(min-width:600px)and(max-width:991px){
+    ul, li, p{
+        margin-left:3vw;
+        margin-right:3vw;
+        font-size: 1em;
+        text-align:left;
+    }
+
+    h2{
+        font-size:25px;
+    }
+
+    h3{
+        font-size:2em;
+        text-align: center;
+        //border-bottom:2px solid $flyux;
+        //width:60vw;
+       // margin-left:3vw;
+        
+    }
+
+    
+q{
+    font-size:25px;
+   
+}
+
+    h5{
+        font-size:1.2em;
+        text-align:center;
+        color:$flyux;
+
+    }
+
+    h6{
+        font-size:1.6em;
+        text-align:center;
+        //text-decoration: underline;
+        margin-bottom:1px;
+    }
+}
+
+
+@media(min-width:992px)and(max-width:1199px){
+
+    section{
+        height:35vh;
+    }
+    
+    h2{
+        font-size:30px;
+    }
+
+
+    h3{
+        font-size:2em;
+        text-align: left;
+        border-bottom:2px solid $flyux;
+       
+    }
+
+   
+    h5{
+        font-size:1.5em;
+        color:$flyux;  
+        margin-top:0%;
+        margin-bottom:0%; 
+    }
+
+    h6{
+        font-size:1.2em;
+        //text-decoration:underline;
+        text-align:center;
+        margin-top:3px;
+        margin-bottom:2px;
+    }
+
+    q{
+        font-size:21px;
+      
+    }
+
+    ul, p, li{
+        font-size:1em;
+    }
+}
+
+
+
+@media(min-width:1200px){
+
+   section{
+       height:35vh;
+   }
+
+    p, li{
+        font-size:1em;
+    }
+
+    q{
+        font-size:2em;
+    }
+
+    h2{
+        font-size:30px;
+    }
+
+    h3{
+        font-size:2.3em;
+        text-align:left;
+        margin-top:0%;
+       
+    }
+
+
+
+    h5{
+        font-size:1.7em;
+        color:$flyux; 
+        margin-bottom:0%;
+        margin-top:0%;  
+    }
+
+    h6{
+        font-size:25px;
+        text-align:center;
+        margin-top:3px;
+        margin-bottom:2px;
+    }
+}

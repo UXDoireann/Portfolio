@@ -22,6 +22,7 @@ import './styles/menu.scss'
 import './styles/pageload.scss'
 import './styles/flyux.scss'
 import './styles/about.scss'
+import './styles/styles.scss'
 
 
 
