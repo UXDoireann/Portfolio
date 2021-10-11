@@ -66,7 +66,7 @@
             <div class="divides">
                <h5>Goal</h5>
                <p>I completed this project as part of my Professional Diploma in UX Design from the UX Design Institute (accreditated by Glasgow Caledonian University).<br><br>
-                  The goal of the project was to create an end-to-end user flow for booking a flight on an airline native app.
+                  The goal of the project was to create an end-to-end user flow for booking a flight on an airline native app - from the landing page to flight summary.
 
                </p>
             </div>
@@ -233,9 +233,10 @@
       <article id="usability">
        <img class="section_image" alt="usability test for mobile" src='../media/Fionnuala_b&w.jpg' loading="lazy">
          <div class="right_text"> <h5>Usability Testing</h5>
-         <p>I conducted three usability tests, each including an in-depth interview examining the user's habits
+         <p>I conducted <b>three</b> usability tests, each including an in-depth interview examining the user's habits
             and contexts surrounding their previous experiences of booking flights online. As FlyUX is a fictitious
-            airline, I used two apps previously reviewed during Competitive Benchmarking: Turkish Airlines and Easyjet.<br><br>
+            airline, I used two apps previously reviewed during Competitive Benchmarking: <b>Turkish Airlines</b> and <b>Easyjet.</b><br><br>
+            I examined in particularly how they experienced the flow from: <b>the landing page, to flight search & selection, filling in passenger details, seat selection & extras, through to flight summary.</b>
             Listening to and observing these people search for and book flights was an incredibly interesting
             experience and provided a trove of insights and ideas. Throughout the overall design process, I kept
             these people in mind, thinking of their goals, their behaviours, their frustrations, their delight,
@@ -284,7 +285,9 @@
         <article id="affinity">
           <img class = "section_image" src="../media/whole_diagram.png"> 
          <div class="right_text"><h5>Affinity Diagram</h5>
-         <p>Having collected a great deal of qualitative research, the next step was to use an affinity diagram to analyse the data in-depth. Sharing my research with another person, collaboratively, we wrote our observations on post-its. Following this a process of organising and re-organising the post-its ensued. As there was a lot to analyze, we got really granular in our final groupings of data. </p><br>
+         <p>Having collected a great deal of qualitative research from competitive benchmarking, three usability tests and an online survey, the next step was to use an affinity diagram to analyse the data in-depth.
+             Sharing my research with another person, collaboratively, we wrote our observations on post-its. Following this a process of organising and re-organising the post-its ensued. 
+             As there was a lot to analyze, we got really granular in our final groupings of data. </p><br>
           <a href='../media/DoireannNiGhrioghair_Project5.pdf' class="flyux_link">View full affinity diagram document</a></div>
             </article>
 
@@ -318,7 +321,8 @@
           structured deliverable.
           From the decisions and conversations preceding opening an app to book a flight, to all the behaviour, decisions and emotions experienced while
           going through the process of searching for and booking flights, to the sharing of the booking afterwards - 
-          all are mapped here in this document. Work was done for a clear runway, from which to 'take off' with the next step of designing...
+          all are mapped here in this document. From a cursory glance at this document, it's easy to see that the customer experience dips drastically during 
+          flight and fare selection and again when it comes to seat selection and adding luggage and extras.
          <br><br>
        <a href='../media/CustomerJourneyMap.pdf' class="flyux_link" >View full customer journey map document</a>
          </div>
@@ -328,33 +332,42 @@
       <div id="af_map_findings">
          <h5 id="key_findings">Key Findings</h5>
          <ul id="key_points" >
-            <li>Users have a general distrust and skepticism of 'extras' and luggage costs and hence a need for a constant <b>price clarity</b></li><br>
-         <li>As this project took place during Covid-19 pandemic, when searching for flights, <b>lack of availability</b> was often an issue. How an app handled this (or didn't!) was a key noteworthy point</li><br>
-         <li>Deviation from <b>established conventions</b> often caused confusion for users</li><br>
-      <li>Important information should be <b>more forthcoming</b> eg. layovers</li><br>
-   <li>Users don't like when there is a <b>mandatory 'sign-in'</b>.</li></ul> </p></br></br>
+            <li><b>Price clarity:</b> Users have a general distrust and skepticism of 'extras' eg. seats and luggage costs and hence a need for a constant visible update of cost.</li><br>
+         <li><b>Guidance when lack of availability: </b> As this project took place during Covid-19 pandemic, when searching for flights, lack of availability was often an issue. How an app handled this (or didn't!) was a key noteworthy point</li><br>
+         <li><b>Established conventions:</b> Deviation from established conventions eg. in calendars or 'flexi-search' graphs often cause confusion for users</li><br>
+         <li><b>Unnecessary features: </b> Innovative and novel ways of flight searching can be confusing or just irrelevant to users.</li><br>
+      <li><b>Forthcoming information:</b> Important information should be more forthcoming eg. layovers</li><br>
+      <li><b>Option to edit: </b >Users like if they can edit flight summary. </li><br>
+         <li><b>Abbreviations: </b> There shouldn't be assummed familiarity.</li><br>
+         <li><b>Feeling of flow: </b> Users appreciate when they can complete their desired tasks easily.</li><br>
+      <li><b>Nights away: </b> 'Nights away' are understood more by users that 'days away'. It's helpful to update this somewhere if the dates change during selection from original search.</li><br>
+   <li><b>Continue as guest:</b> Users don't like when there is a mandatory 'sign-in'.</li></ul> </p></br></br>
       </div>
 
 
 
-         <div class="section_title"><h2><b>Step 3:</b> Design</h2>
+         <h3 class="heading" >Design</h3>
            
          
-            </div>
+           
    
 
-        <article id ="column_reverse_2"  ><div  class="left_text"><h3>User Flow Diagram</h2>
+        <article id="user_flow_diagram">
+           <div  class="left_text"><h5>User Flow Diagram</h5>
          <p>Addressing all the issues in the Customer Journey Map, the next step was to define
             the high-level flow for this complex and structured, but overall linear process mobile app.
             Focussing on the journey from searching for flights to payment, each screen, screen state and 
             interaction is accounted for. Keeping in mind issues the user's raised, some points of note here are:
             <ul>
+               <li>'Nights away' listed on calendar rather than 'days away'.</li>
                <li>Flow of guidance if flight route or date unavailable</li>
-               <li>Options to edit flight selection</li>
+               <li>Options to edit flight summary</li>
                <li>Option to continue as guest without forced sign-in</li>
+               <li>No unnecessary features</li>
+               <li>Abbreviation explainers</li>
             </ul>
          </p>
-         <button class="pdf_link" ><a href='../media/flow_diagram.pdf' class="link">View Flow Diagram</a></button>
+         <a href='../media/flow_diagram.pdf' class="flyux_link">View Flow Diagram</a>
       </div>
          <img class="section_image" src = '../media/flow_diagram_pic.png' loading="lazy" alt="User Flow Diagram Detail">
             </article>
@@ -364,14 +377,14 @@
         
         <article class="grey" id="interaction_article">
          <img id="interaction" src ="../media/interaction_design.png">
-         <div class="right_text" id="interaction_text"><h3>Interaction Design</h3>
+         <div class="right_text" id="interaction_text"><h5>Interaction Design</h5>
          <p>Drawing from the Flow Diagram, I really enjoyed sketching the screens and screen states.
             As my background is in visual art, I really felt at home problem-solving through sketching -
             always being aware that this is the first iteration of a number of iterations.
             I've included below here some screens of note. For the full pdf document, please press the link.
          </p>
       <br>
-      <button class="pdf_link"><a href='../media/interaction_design.pdf' class="link" >View Interaction Design</a></button>
+     <a href='../media/interaction_design.pdf' class="flyux_link" >View Interaction Design</a>
       </div>
          
       </article>
@@ -410,14 +423,14 @@
 
 
 
-      <div class="section_title"><h2><b>Step 4:</b> Prototyping</h2></div>   
+      <h3 class="heading">Prototyping</h3> 
 
 
       
 
-        <article  class="grey">
+        <article id="medium_fidelity">
          <img class="section_image" alt="medium fidelity usability test still" src="../media/colm.jpg">
-         <div id="proto_text" class="left_text"><h3>Medium Fidelity Prototype</h3>
+         <div id="proto_text" class="left_text"><h5>Medium Fidelity Prototype & Usability Test</h5>
             <p>A protoype isn't a prototype without a user to test it. Upon completing a medium-fidelity prototype using Adobe XD, I undertook a usability test, exploiting the opportunity to also conduct another indepth interview.
                Overall, the user found the prototype very easy to use, with a good general flow. I took note of some minor improvements that could be made during the 
                next iteration to further improve the flow. I was thinking little details eg. chevrons that animate to crosses when sections are opened and closed - which might sound trivial, but those visual cues really help people intuitively understand what's happening.
@@ -428,37 +441,35 @@
       
          </article>
 
-         <article style="display:flex; flex-direction:column">
+       
       
           <img id ="midfi"  alt="medium fidelity prototype screens" src="../media/medium_fidelity_prototype.jpg">
-        </article>
-
-        <article class="grey" >
+       
+<h3 class="heading">Iterate</h3>
+        <article id="high_fidelity" >
          <img  class="section_image" alt="high fidelity user test" src="../media/megan_final.jpg">
-         <div class="left_text"><h3>UI Design and Final Prototype</h3>
+         <div class="left_text"><h5>UI Design and Final Prototype</h5>
        <p>For the final prototype, I wanted to finish it with some beautiful UI for consistency, polish and aesthetic appeal. Following this, I conducted one more user test. This was really a sanity check to fully confirm everything was working as required, but also to test the visual style too.
           Everything was working as expected and the user found it easy to use. Small visual nudges using animations and images further enhanced the flow. Please see image of screens below or click on the link to try the prototype yourself.
        </p>
-       <button class="pdf_link" ><a href='https://xd.adobe.com/view/d78e29e4-533e-4eb6-a20f-f3fe06714967-82dd/?fullscreen&hints=off' target="_blank" class="link" >View Final Prototype</a></button>
+       <a class="flyux_link" href='https://xd.adobe.com/view/d78e29e4-533e-4eb6-a20f-f3fe06714967-82dd/?fullscreen&hints=off' target="_blank" style="text-decoration: none;">Click here to view final prototype <i class="fas fa-external-link-alt"></i></a>
           <br><br></div>
-         
+         </article>
     
-       </article>
-
-        <article style="display:flex; flex-direction:column">
+      
          
           <img id="hifi"alt="final ui screens" src="../media/high_fidelity.jpg">
-          <br>
+         
         
          
 
-         </article>
+      
 
         
 
-        
+        <h3 class="heading">Delivery</h3>
 
-        <article>
+        <article id="wireframes">
          <img class="section_image" alt="wireframe process image" src ="../media/wireframe.png" />
          <div class="right_text">
           <h3>Wireframes</h3>
@@ -467,7 +478,7 @@
             Having a knowledge of front-end development, I'm aware of what needs to be specificed here 
             for handover and the importance of this document.
          </p>
-         <button class="pdf_link" ><a href='../media/Wireframes.pdf' class="link" >View Wireframes</a></button>
+         <a href='../media/Wireframes.pdf' class="flyux_link" >View Wireframes</a>
       </div>
          </article>
 
@@ -484,7 +495,7 @@
       <div class="parallax_bottom"></div>
       <div id="bottom_image_mobile"></div>
 
-      <article class="outcomes"style="display:flex; flex-direction:column" ><br><h3 id="medfi">Outcomes</h3>
+      <article class="outcomes"style="display:flex; flex-direction:column" ><br><h5 id="medfi">Outcomes</h5>
          <p>Flight booking can be a anxiety inducing experience for many people. Being forthcoming with key information throughout the process is really
             important in gaining trust with the person using the app. Throughout the design process, I constantly thought back to the usability tests. 
             Design descisions all have their root in what these people expressed while trying to book a flight. The final prototype is really made for them.
@@ -493,15 +504,13 @@
 
          </p>
         
-            <button class="pdf_link" id="affinity_link"><a href='https://xd.adobe.com/view/d78e29e4-533e-4eb6-a20f-f3fe06714967-82dd/?fullscreen&hints=off' target="_blank"  class="link" >View Final Prototype</a></button>
+         <a class="flyux_link" href='https://xd.adobe.com/view/d78e29e4-533e-4eb6-a20f-f3fe06714967-82dd/?fullscreen&hints=off' target="_blank" style="text-decoration: none;">Click here to view final prototype <i class="fas fa-external-link-alt"></i></a>
       <br>
       <br>
       
       <br>
       </article>
-      <footer>
-         2021 by Doireann Ni Ghrioghair
-      </footer>
+     
          </main>
         <script>
            

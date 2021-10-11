@@ -25,6 +25,19 @@ $imageShadow:5px 10px 10px 10px rgb(138, 157, 160);
 #af_map_findings{
     width:100vw;
     background-color: $flyuxlowlowop;
+    margin-bottom:12vh;
+}
+
+#user_flow_diagram, #medium_fidelity, #midfi{
+    margin-bottom:12vh;
+}
+
+#high_fidelity{
+    margin-top:12vh;
+}
+
+#high_fidelity, #hifi, #wireframes{
+    margin-bottom:12vh;
 }
 
 
@@ -372,7 +385,7 @@ img{
 
 
 
-.pdf_link{
+/*.pdf_link{
     margin-left:2.5vw;
     width:90vw;
     //align-items: center;
@@ -383,7 +396,7 @@ img{
     text-align:center;
     margin-left:2vw;
     
-}
+}*/
 
 .section_image{
     width:85vw;
@@ -427,11 +440,14 @@ img{
     margin-bottom:2vh;
 }
 
+//interaction design
+
 .screen{
     width:80vw;
     height:95vw;
     margin-left:7vw;
 }
+
 
 #interaction{
     width:85vw;
@@ -445,6 +461,7 @@ img{
 
 .sketch{
     background-color: $flyuxlowlowop;
+    
 }
 
 
@@ -500,6 +517,8 @@ img{
 
 .sketch{
     margin-bottom: 50px;
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
 
@@ -656,6 +675,12 @@ article{
 
     .sketch{
         background-color: $flyuxlowlowop;
+        width:330px;
+        padding-left:3vw;
+        padding-top:1vh;
+        margin-left:2vw;
+        margin-right:2vw;
+        margin-bottom:2vh;
     }
 
  
@@ -678,12 +703,12 @@ article{
 
 
 
-    #column_reverse_1, #column_reverse_2{
+   /* #column_reverse_1, #column_reverse_2{
         display:flex;
         flex-direction:column-reverse;
         padding-bottom:5vh;
         margin-bottom:20vh;
-    }
+    }*/
 
     .user_img_parent{
         width:70vw;
@@ -859,7 +884,7 @@ article{
          font-size:1em;
      }
 
-     .divides{
+     .divides, .sketch{
         padding-top:20px;
         padding-left:20px;
         width:340px;
@@ -991,7 +1016,7 @@ article{
 
     .sketch{
         background-color: $flyuxlowlowop;
-        
+    
     }
 
     .paper_row{
@@ -1184,7 +1209,7 @@ article{
        
     }
 
-    .divides{
+    .divides, .sketch{
         margin-right:20px;
         margin-left:20px;
         padding-top:20px;
