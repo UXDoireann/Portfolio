@@ -10,6 +10,16 @@ $compbench:rgb(218,242,245);
 
 $imageShadow:5px 10px 10px 10px rgb(138, 157, 160);
 
+#right{
+    margin-top:3vh;
+    margin-left:3vw;
+}
+
+.conclusion{
+    margin-bottom:10vh;
+    height:100vh;
+}
+
 .link{
     color:white;
     text-decoration: none;
@@ -1178,6 +1188,11 @@ article{
         display:none;
      }
 
+     .conclusion{
+        display:flex;
+        flex-direction: row;
+    }
+
 }
 
 @media(min-width:1200px){
@@ -1558,11 +1573,10 @@ margin-bottom:5vh;
     text-align:center;
 }
 
-.outcomes{
-    height:90vh;
-    text-align: justify;
-    margin-left:4vw;
-    margin-right:4vw;
+.conclusion{
+    display:flex;
+    flex-direction: row;
+    
 }
 
 #final_prototype{
