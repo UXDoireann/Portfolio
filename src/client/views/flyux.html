@@ -375,7 +375,7 @@
             
          
         
-        <article class="grey" id="interaction_article">
+        <article  id="interaction_article">
          <img id="interaction" src ="../media/interaction_design.png">
          <div class="right_text" id="interaction_text"><h5>Interaction Design</h5>
          <p>Drawing from the Flow Diagram, I really enjoyed sketching the screens and screen states.
@@ -428,29 +428,66 @@
 
       
 
-        <article id="medium_fidelity">
-         <img class="section_image" alt="medium fidelity usability test still" src="../media/colm.jpg">
-         <div id="proto_text" class="left_text"><h5>Medium Fidelity Prototype & Usability Test</h5>
-            <p>A protoype isn't a prototype without a user to test it. Upon completing a medium-fidelity prototype using Adobe XD, I undertook a usability test, exploiting the opportunity to also conduct another indepth interview.
-               Overall, the user found the prototype very easy to use, with a good general flow. I took note of some minor improvements that could be made during the 
-               next iteration to further improve the flow. I was thinking little details eg. chevrons that animate to crosses when sections are opened and closed - which might sound trivial, but those visual cues really help people intuitively understand what's happening.
-            Scroll a little further down to see the image below that shows a selection of screens from this medium fidelity prototype.</p>
-               </div>
-           
-           
+        <section class ="full_text">
+         <h5>Medium Fidelity Prototype</h5>
+            <p>Using <b>Adobe XD,</b> I created a medium fidelity prototype. Deliberately defining the user flow to explore <b>lack of availability</b> on a desired date of the outbound flight, the following measures were implemented to test:
+               <ol>
+                  <li>On the calendar page, '14 nights away' is written at the bottom once outbound and return dates are selected.</li><br>
+                  <li>When the outbound date is unavailable, the user is presented with this information on a 'tab' screen, with clear options to 
+                     swipe left or right for days before or after on tabs with their corresponding lowest prices. This is a recognisable design convention.
+                  </li><br>
+                  <li>In this scenario, the user chooses the date <b>after</b> their original desired date. As a result, their trip is now <b>13 nights</b> instead of <b>14 nights</b> as intended. This is flagged on top of the outbound date list-view screen once selected.</li><br>
+                  <li>The user then navigates to the following page and then <b>14 nights in Tokyo</b> is written at the top of the list-view screen.</li><br>
+                  <li>In the Flight Summary screen, there are clear options to <b>edit</b> the trip</li><br>
+                  <li>Amidst the confusion, the user is now returning to a different airport in London than the outbound flight. This is also flagged in a pop-up screen when the user has pressed 'Continue' in Flight Summary screen.</li><br>
+               </ol>
+            </p>
       
-         </article>
+            </section>
 
        
       
           <img id ="midfi"  alt="medium fidelity prototype screens" src="../media/medium_fidelity_prototype.jpg">
+
+          <article id="medium_fidelity">
+            <img class="section_image" alt="medium fidelity usability test still" src="../media/colm.jpg">
+            <div id="proto_text" class="left_text"><h5>Usability Test</h5>
+               <p>I undertook a usability test to test this prototype flow, exploiting the opportunity to also conduct another indepth interview with a user.
+                 Overall, the user found the prototype very easy to use, with a good general flow and corresponding mental models with regards to the implemented features relating to availability.<br><br>
+                 I did find one important detail I had to change in the next iteration. Presented with the list-view of available flights for a specific day, when the user selects a flight, that tab opens to reveal more details about the flight eg. layovers, available fares, etc.
+               However, once the user selected the flight on the list-view, they thought they were now on the return flight screen.
+            I realised that I needed to think about small visual adjustments so that it was obvious that once a tab on the list-view was selected that it opened a window with 'details'. A simple animated chevron would probably work....</p>
+                  </div>
+            </article>
        
 <h3 class="heading">Iterate</h3>
+
+<section class="full_text"><h5>UI Design & High Fidelity Prototype.</h5>
+<p>Following from the usability test, for the next iteration, the first issue to be addressed was to implement animated chevrons on list-view options for both flights and extras.
+   Other implementations include:
+   <ul>
+      <li>Attractive destination images on Landing Page, 'Sign In' page and on Confirmation screen.</li><br>
+      <li>Animations for when flight search results are loading and for when payment is being processed.</li><br>
+      <li>'Flagged' information - that may be 'pain points' highlighted in yellow.</li><br>
+      <li>Design and colour consistency throughout the screens.</li><br>
+      <li>Friendly 'encouraging' language during payment screens eg. <em>You're almost on your way to Tokyo!</em></li><br>
+
+
+   <li>A constantly updated cost at the bottom of the screen.</li><br>
+   <li>A clear option to 'Continue As Guest' during 'Sign In' screen.</li><br>
+   <li>Before seat selection, it is clear that the user will be randomly assigned seating if seats not selected.</li><br>
+</ul>
+</p></section>
+
+<img id="hifi"alt="final ui screens" src="../media/high_fidelity.jpg">
+
         <article id="high_fidelity" >
          <img  class="section_image" alt="high fidelity user test" src="../media/megan_final.jpg">
-         <div class="left_text"><h5>UI Design and Final Prototype</h5>
-       <p>For the final prototype, I wanted to finish it with some beautiful UI for consistency, polish and aesthetic appeal. Following this, I conducted one more user test. This was really a sanity check to fully confirm everything was working as required, but also to test the visual style too.
-          Everything was working as expected and the user found it easy to use. Small visual nudges using animations and images further enhanced the flow. Please see image of screens below or click on the link to try the prototype yourself.
+         <div class="left_text"><h5>Usability Test</h5>
+       <p>For this test, I wanted to see how the list-view pages (now with animated chevrons!) would correspond to the user's mental models. They worked! The user understood
+          easily that windows were opening and that they were now being shown 'details'. <br><br>
+          Also, I wanted to make sure the UI design enchanced rather than hindered the overall flow. The results were positive and user could easily navigate through the 'lack of availability' with understanding of what was happening.
+          Having the constantly updated price at the bottom and an option to 'Continue As Guest' were also appreciated.
        </p>
        <a class="flyux_link" href='https://xd.adobe.com/view/d78e29e4-533e-4eb6-a20f-f3fe06714967-82dd/?fullscreen&hints=off' target="_blank" style="text-decoration: none;">Click here to view final prototype <i class="fas fa-external-link-alt"></i></a>
           <br><br></div>
@@ -458,7 +495,7 @@
     
       
          
-          <img id="hifi"alt="final ui screens" src="../media/high_fidelity.jpg">
+        
          
         
          

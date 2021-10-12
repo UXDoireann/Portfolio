@@ -26,6 +26,7 @@ $imageShadow:5px 10px 10px 10px rgb(138, 157, 160);
     width:100vw;
     background-color: $flyuxlowlowop;
     margin-bottom:12vh;
+    margin-top:20vh;
 }
 
 #user_flow_diagram, #medium_fidelity, #midfi{
@@ -56,6 +57,13 @@ $imageShadow:5px 10px 10px 10px rgb(138, 157, 160);
 #findings{
     margin-top:2vh;
     background-color: $flyuxlowlowop;
+}
+
+.full_text{
+    margin-left:3vw;
+    margin-right:3vw;
+    margin-bottom:5vh;
+    height:60vh;
 }
 
 
