@@ -94,7 +94,7 @@ article{
 }
 
 
-.quote, .section_title{
+.quote{
     opacity:0;
     transition: 2s;
     transition-timing-function:ease-out;
@@ -1209,7 +1209,11 @@ article{
         display:flex;
         flex-direction:row;
         justify-content: space-between;
-        height:30em;
+        height:80vh;
+    }
+
+    section{
+        height:80vh;
     }
 
     
