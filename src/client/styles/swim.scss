@@ -1,0 +1,34 @@
+$swim:#0096FF;
+
+
+#landing_tide{
+    opacity:1;
+   height:10vh;
+}
+
+.swim_sub_headings, .tide_checking, .swim_link{
+    color:$swim;
+}
+
+#swim_land{
+    margin-left:3vw;
+}
+
+.tide_checking{
+    border-bottom: 2px solid $swim;
+    margin-left:3vw;
+    margin-top:2vh;
+    margin-right:3vw;
+}
+
+
+
+.parallax_top_swim{
+    background-image:url("../media/swim_carlingford.jpg");
+    min-height:750px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:50vh;
+}

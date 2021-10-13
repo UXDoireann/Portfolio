@@ -23,6 +23,7 @@ import './styles/pageload.scss'
 import './styles/flyux.scss'
 import './styles/about.scss'
 import './styles/styles.scss'
+import './styles/swim.scss'
 
 
 
@@ -111,6 +112,7 @@ import './media/Doireann_Ni_GhrioghairUX_CV.pdf'
 import './media/favicon.png'
 
 //Swim App Media
+import './media/swim_carlingford.jpg'
 
 import './media/Swim_App_Survey.png'
 
