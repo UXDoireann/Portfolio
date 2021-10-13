@@ -72,7 +72,7 @@ $imageShadow:5px 10px 10px 10px rgb(138, 157, 160);
     margin-left:3vw;
     margin-right:3vw;
     margin-bottom:5vh;
-    height:60vh;
+   // height:60vh;
 }
 
 
@@ -307,10 +307,34 @@ img{
         margin-bottom:8vh;
     }
 
+    .full_text{
+        height:auto;
+    }
+
+    section{
+        height:auto;
+    }
+
+
     .divides{
         padding-top:15px;
         padding-bottom:15px;
         margin-bottom:20px;
+    }
+
+    .section_image{
+        width:85vw;
+        height:35vh;
+        margin-left:4vw;
+        margin-top:3vh;
+        margin-bottom:3vh;
+    }
+
+    .half_image{
+        width:43vw;
+        height:33vh;
+        margin-left:12vw;
+        margin-bottom:2vh;
     }
 
    //landing
@@ -378,51 +402,6 @@ img{
 
 
 
-
-
-
-
-
-#column_reverse_1,
-#column_reverse_2{
-    display:flex;
-    flex-direction:column-reverse;
-    margin-bottom:20vh;
-}
-
-#af{
-    margin-bottom:20vh;
-}
-
-.quote{
-    padding-left:2vw;
-}
-
-
-
-
-
-/*.pdf_link{
-    margin-left:2.5vw;
-    width:90vw;
-    //align-items: center;
-}
-
-.link{
-    font-size:15px;
-    text-align:center;
-    margin-left:2vw;
-    
-}*/
-
-.section_image{
-    width:85vw;
-    height:35vh;
-    margin-left:4vw;
-    margin-top:3vh;
-    margin-bottom:3vh;
-}
-
 //compbench
 #compbench{
     width:85vw;
@@ -432,30 +411,28 @@ img{
     margin-bottom:3vh;
 }
 
-
-
-
-
-.onefind{
-    display:flex;
-    flex-direction:row;
-    align-items: space-evenly;
+#findings{
+    padding-right:2vw;
 }
 
-
-
+//usability tests
 .user_test_images_1{
     width:85vw;
     height:40vh;
     margin-left:4vw;
 }
 
-.half_image{
-    width:43vw;
-    height:33vh;
-    margin-left:12vw;
-    margin-bottom:2vh;
+.quote{
+    padding-left:2vw;
 }
+
+
+//affinity map
+#af{
+    margin-bottom:20vh;
+}
+
+
 
 //interaction design
 
@@ -540,6 +517,8 @@ img{
 
 
 
+
+
 #midfi, #hifi{
     width:85vw;
     margin-left:4vw;
@@ -580,6 +559,10 @@ article{
 .findings{
     display:flex;
     flex-direction: row;
+}
+
+.full_text{
+    height:60vh;
 }
 
 
@@ -874,6 +857,10 @@ article{
         margin-right:5vw;
         margin-top:1vh;
        
+    }
+
+    .full_text{
+        height:60vh;
     }
 
     .heading{
@@ -1214,6 +1201,10 @@ article{
 
     section{
         height:80vh;
+    }
+
+    .full_text{
+        height:auto;
     }
 
     
