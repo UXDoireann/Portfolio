@@ -3,10 +3,13 @@ $swim:#0096FF;
 
 #landing_tide{
     opacity:1;
-   height:10vh;
 }
 
-.swim_sub_headings, .tide_checking, .swim_link{
+.swim_sub_headings, .tide_checking, .swim_link {
+    color:$swim;
+}
+
+#chevron{
     color:$swim;
 }
 
@@ -31,4 +34,75 @@ $swim:#0096FF;
     background-repeat:no-repeat;
     background-size:cover;
     margin-top:50vh;
+}
+
+@media(max-width:599px){
+
+    header{
+        height:10vh;
+    }
+
+    #landing_tide{
+        margin-top:8vh;
+        margin-bottom:0%;
+        height:5vh;
+    }
+
+    .section{
+       height: 210vh;
+    }
+
+ 
+
+
+}
+
+@media(min-width:600px)and(max-width:991px){
+
+    header{
+        height:5vh;
+        margin-bottom:0%;
+        padding-bottom:0%;
+    }
+
+    #landing_tide{
+        margin-bottom:0%;
+        height:2vh;
+    }
+
+    .full_text, .findings{
+        height:30vh;
+    }
+
+    .section{
+        height:45vh;
+    }
+
+   
+}
+
+@media(min-width:992px)and(max-width:1199px){
+
+    #landing_tide{
+        height:5vh;
+    }
+
+    .full_text, .findings{
+        height:30vh;
+    }
+
+    .section{
+        height:45vh;
+    }
+
+
+
+}
+
+@media(min-width:1200px){
+
+    #landing_tide{
+        height:5vh;
+    }
+
 }
