@@ -123,6 +123,8 @@ import './media/Swim_App_Competitive_Benchmarking_3.png'
 import './media/Swim_App_Competitive_Benchmarking_4.png'
 import './media/Swim_App_Competitive_Benchmarking_5.png'
 import './media/Swim_App_Competitive_Benchmarking_6.png'
+import './media/Swim_App_Competitive_Benchmarking_7.png'
+import './media/Swim_App_Competitive_Benchmarking_8.png'
 
 import './media/Swim_App_Miro_1.png'
 import './media/Swim_App_Miro_2.png'
