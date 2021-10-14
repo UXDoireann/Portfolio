@@ -5,12 +5,28 @@ $swim:#0096FF;
     opacity:1;
 }
 
+.swimy{
+    opacity:0;
+    transition: 2s;
+    transition-timing-function:ease-out;
+}
+
+.your-active-class{
+    opacity:1;
+    transition: 1.5s;
+    transition-timing-function:ease-in;
+}
+
 .swim_sub_headings, .tide_checking, .swim_link {
     color:$swim;
 }
 
-#chevron{
-    color:$swim;
+.swim_list{
+    background-color: #bee0f8;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 
 #swim_land{
@@ -28,6 +44,14 @@ $swim:#0096FF;
     box-shadow: none;
     //border-left:1px solid $swim;
 
+}
+
+.sub_sub{
+    color:$swim;
+    border-bottom:1px solid $swim;
+    margin-bottom:2vh;
+    margin-top:7vh;
+    
 }
 
 
@@ -58,6 +82,16 @@ $swim:#0096FF;
        height: 210vh;
     }
 
+    article{
+        opacity:1;
+    }
+
+    .swim_img, .swim{
+        width:90vw;
+        margin-left:3vw;
+        margin-bottom:2vh;
+
+    }
  
 
 
@@ -84,6 +118,13 @@ $swim:#0096FF;
         height:45vh;
     }
 
+    .swim_img, .swim{
+        width:90vw;
+        margin-left:3vw;
+        margin-bottom:2vh;
+
+    }
+
    
 }
 
@@ -93,8 +134,10 @@ $swim:#0096FF;
         height:5vh;
     }
 
-    .swim_img{
-        height: 70vh;
+    .swim_img, .swim{
+        height: 40vh;
+        margin-right:1vw;
+        margin-left:1vw;
     }
 
     .full_text, .findings{
@@ -105,9 +148,22 @@ $swim:#0096FF;
         height:45vh;
     }
 
+    #swim_apps{
+        margin-left:25vw;
+    }
 
-
+    .swim_grid{
+        display:flex;
+        flex-direction: row;
+        margin-left:5vw;
+        margin-bottom:5vh;
+       
+    }
 }
+
+
+
+
 
 @media(min-width:1200px){
 
@@ -115,7 +171,22 @@ $swim:#0096FF;
         height:5vh;
     }
 
-    .swim_img{
-        height: 70vh;
+    .swim_img, .swim{
+        height: 60vh;
+        margin-right:2vw;
+        //margin-left:1vw;
+    }
+
+
+    #swim_apps{
+        margin-left:20vw;
+    }
+
+    .swim_grid{
+        display:flex;
+        flex-direction: row;
+        margin-left:5vw;
+        margin-bottom:5vh;
+       
     }
 }

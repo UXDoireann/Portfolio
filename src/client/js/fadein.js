@@ -59,12 +59,12 @@ const activeQuote = ()=>{
 //Add active class to section titles
 
 const activeTitle = ()=>{
-    const allTitles = document.getElementsByClassName('section_title');
+    const allTitles = document.getElementsByClassName('swimy');
     for(let a=0; a < allTitles.length; a++){
         const title = allTitles[a]
 
         const view = title.getBoundingClientRect();
-        if (view.top<500 && view.bottom >= 10) {
+        if (view.top<700 && view.bottom >=10 ) {
             title.classList.add("your-active-class");
             console.log("a bit of added class");
         } else {
