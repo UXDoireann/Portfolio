@@ -11,6 +11,8 @@ $swim:#0096FF;
     transition-timing-function:ease-out;
 }
 
+
+
 .your-active-class{
     opacity:1;
     transition: 1.5s;
@@ -74,6 +76,42 @@ $swim:#0096FF;
     margin-top:50vh;
 }
 
+#swim_affinity{
+    width:90vw;
+    height:70vh;
+    margin-bottom:20vh;
+    background-repeat:no-repeat;
+    background-size:contain;
+    animation-name:affinity;
+    -webkit-animation-name:affinity;
+    animation-duration:35s;
+    -webkit-animation-duration:35s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function: steps(1,end);
+    animation-timing-function: steps(1,end);
+}
+
+@keyframes affinity{
+    0%{background-image:url("../media/Swim_App_Miro_1.png");}
+    10%{background-image:url("../media/Swim_App_Miro_2.png");}
+    20%{background-image:url("../media/Swim_App_affinity_diagram_1_2.png");}
+    30%{background-image:url("../media/Swim_App_affinity_diagram_2.png");}
+    40%{background-image:url("../media/Swim_App_affinity_diagram_3.png");}
+    50%{background-image:url("../media/Swim_App_affinity_diagram_4.png");}
+    60%{background-image:url("../media/Swim_App_affinity_diagram_5.png");}
+    70%{background-image:url("../media/Swim_App_affinity_diagram_5_2.png")}
+    80%{background-image:url("../media/Swim_App_affinity_diagram_6.png");}
+    90%{background-image:url("../media/Swim_App_affinity_diagram_7.png");}
+
+}
+
+#swim_use, .map{
+    box-shadow: none;
+    border-radius:0px;
+    margin-bottom:18vh;
+}
+
 @media(max-width:599px){
 
     header{
@@ -99,6 +137,10 @@ $swim:#0096FF;
         margin-left:3vw;
         margin-bottom:2vh;
 
+    }
+
+    #swim_affinity, .map{
+        margin-left:2vw;
     }
  
 
@@ -131,6 +173,10 @@ $swim:#0096FF;
         margin-left:3vw;
         margin-bottom:2vh;
 
+    }
+
+    #swim_affinity, .map{
+        margin-left:3vw;
     }
 
  
@@ -183,6 +229,10 @@ $swim:#0096FF;
         margin-right:2vw;
     }
 
+    #swim_affinity, .map{
+        margin-left:5vw;
+    }
+
     
 }
 
@@ -226,5 +276,9 @@ $swim:#0096FF;
 
     #caelinn{
         margin-right:5vw;
+    }
+
+    #swim_affinity, .map{
+        margin-left:15vw;
     }
 }
