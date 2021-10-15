@@ -78,8 +78,7 @@ $swim:#0096FF;
 
 #swim_affinity{
     width:90vw;
-    height:70vh;
-    margin-bottom:20vh;
+    //height:70vh;
     background-repeat:no-repeat;
     background-size:contain;
     animation-name:affinity;
@@ -142,7 +141,18 @@ $swim:#0096FF;
     #swim_affinity, .map{
         margin-left:2vw;
     }
+
+    .map{
+        width:90vw;
+        margin-left:5vw;
+    }
+
+    #swim_affinity{
+        height:40vh;
+        margin-bottom:8vh;
+    }
  
+    
 
 
 }
@@ -175,8 +185,19 @@ $swim:#0096FF;
 
     }
 
-    #swim_affinity, .map{
+  
+
+    #swim_affinity{
+        height:40vh;
+        margin-bottom:12vh;
+        margin-left:5vw;
+        margin-top:0%;
+    }
+
+    .map{
+        width:80vw;
         margin-left:3vw;
+
     }
 
  
@@ -233,6 +254,14 @@ $swim:#0096FF;
         margin-left:5vw;
     }
 
+    #swim_affinity{
+        height:70vh;
+        width:90vw;
+        margin-bottom:12vh;
+        margin-left:5vw;
+        margin-top:0%;
+    }
+
     
 }
 
@@ -280,5 +309,12 @@ $swim:#0096FF;
 
     #swim_affinity, .map{
         margin-left:15vw;
+    }
+
+    #swim_affinity{
+        height:70vh;
+        width:90vw;
+        margin-bottom:12vh;
+        margin-top:0%;
     }
 }
