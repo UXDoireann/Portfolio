@@ -126,6 +126,9 @@ import './media/Swim_App_Competitive_Benchmarking_6.png'
 import './media/Swim_App_Competitive_Benchmarking_7.png'
 import './media/Swim_App_Competitive_Benchmarking_8.png'
 
+import './media/Swim_App_mom.png'
+import './media/Swim_App_caelinn.png'
+
 import './media/Swim_App_Miro_1.png'
 import './media/Swim_App_Miro_2.png'
 import './media/Swim_App_affinity_diagram_1.png'
