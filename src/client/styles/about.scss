@@ -33,6 +33,7 @@
 
 #abouttext{
     color:black;
+    font-size:1.3em;
 }
 
 .em{
@@ -158,6 +159,12 @@ footer{
 }
 
 @media(min-width:1000px){
+
+    #abouttext{
+        margin-left:20vw;
+        margin-right:20vw;
+    }
+    
     #hi{
         color:#e91e63;
         font-weight:bolder;
