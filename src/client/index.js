@@ -143,6 +143,7 @@ import './media/Swim_App_affinity_diagram_6.png'
 import './media/Swim_App_affinity_diagram_7.png'
 
 import './media/Swim_App_journey_map.png'
+import './media/Swim_Flow_Diagram.png'
 
 import './media/Swim_App_Comp_Bench.pdf'
 
