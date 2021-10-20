@@ -293,6 +293,10 @@ flex-direction:row;
 
 @media(min-width:1200px){
 
+    .section{
+        height: 50vh;
+    }
+
     #landing_tide{
         height:5vh;
     }
@@ -341,21 +345,26 @@ flex-direction:row;
     }
 
     .swim_full_text{
-        height:35vh;
+        height:40vh;
        margin-left:3vw;
     }
 
     .swim_findings{
 display:flex;
 flex-direction:row;
+height:30vh;
+background-color:white;
+//padding-bottom:5vh;
     }
 
     .swim_divides{
         
-        padding-top:20px;
+        
         padding-left:20px;
+        margin-top:0%;
         width:340px;
-        margin-bottom:50px;
+       // margin-bottom:50px;
         margin-left:100px;
+       
     }
 }
