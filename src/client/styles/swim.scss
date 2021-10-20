@@ -113,9 +113,9 @@ $swim:#0096FF;
 
 @media(max-width:599px){
 
-    header{
-        height:10vh;
-    }
+   #header{
+       height:40vh;
+   }
 
     #landing_tide{
         margin-top:8vh;
@@ -159,7 +159,7 @@ $swim:#0096FF;
 
 @media(min-width:600px)and(max-width:991px){
 
-    header{
+    #header{
         height:5vh;
         margin-bottom:0%;
         padding-bottom:0%;
@@ -170,8 +170,13 @@ $swim:#0096FF;
         height:2vh;
     }
 
-    .full_text, .findings{
-        height:30vh;
+    .swim_full_text, .swim_findings{
+        height:35vh;
+    }
+
+    .swim_findings{
+        display:flex;
+        flex-direction:row;
     }
 
     .section{
@@ -217,6 +222,25 @@ $swim:#0096FF;
         margin-left:1vw;
     }
 
+    .swim_full_text{
+        height:35vh;
+       margin-left:3vw;
+    }
+
+    .swim_findings{
+display:flex;
+flex-direction:row;
+    }
+
+    .swim_divides{
+        
+        padding-top:20px;
+        padding-left:20px;
+        width:340px;
+        margin-bottom:50px;
+        margin-left:30px;
+    }
+
     .swim_user{
         width:35vw;
         
@@ -226,9 +250,7 @@ $swim:#0096FF;
         margin-right:5vw;
     }
 
-    .full_text, .findings{
-        height:30vh;
-    }
+   
 
     .section{
         height:45vh;
@@ -316,5 +338,24 @@ $swim:#0096FF;
         width:90vw;
         margin-bottom:12vh;
         margin-top:0%;
+    }
+
+    .swim_full_text{
+        height:35vh;
+       margin-left:3vw;
+    }
+
+    .swim_findings{
+display:flex;
+flex-direction:row;
+    }
+
+    .swim_divides{
+        
+        padding-top:20px;
+        padding-left:20px;
+        width:340px;
+        margin-bottom:50px;
+        margin-left:100px;
     }
 }

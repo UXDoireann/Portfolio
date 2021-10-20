@@ -307,6 +307,10 @@
 
 @media(min-width:401px) and (max-width:599px){
 
+   #hello, #bulb, #bulbtwo, #phone, #ball, #screen, #screentwo, #smile, #ball{
+      display:none;
+   }
+
    .centre{
       opacity:1;
       z-index:1;
@@ -364,7 +368,7 @@
       width:60vw;
    }
 
-   #ball{
+  /* #ball{
       width:100px;
       position:absolute;
       height:100px;
@@ -428,7 +432,9 @@
       95%{left:500px; top:1000px; opacity:0; transform: rotate(45deg);}
       96%{left:400px; top:1200px; opacity:0;}
       100%{left:900px; top:600px; opacity:0;}
-   }
+   }*/
+
+  
    
   
   #pageone{
@@ -893,6 +899,8 @@
    96%{left:60px; top:300px; opacity:1;}
    100%{left:40px; top:300px; opacity:0;}
 }
+
+
 
 }
 
