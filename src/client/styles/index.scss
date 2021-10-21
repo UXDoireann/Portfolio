@@ -12,6 +12,8 @@
 
 
 
+
+
 @media(max-width:400px){
    #centre{
       opacity:1;
@@ -254,6 +256,12 @@
    z-index:11;
  
 
+}
+
+.icon_links{
+   margin-left:7vw;
+   align-items: space-between;
+   padding-bottom:10vh;
 }
 
 
@@ -579,6 +587,12 @@
    95%{left:0px; top:0px; opacity:0; transform: rotate(45deg);}
    96%{left:0px; top:50px; opacity:0;}
    100%{left:300px; top:700px; opacity:0;}
+}
+
+.icon_links{
+   margin-left:4vw;
+   align-items: space-between;
+   padding-bottom:10vh;
 }
 
 
@@ -1198,6 +1212,12 @@
    95%{left:50px; top:400px; opacity:1; transform: rotate(-45deg);}
    96%{left:100px; top:300px; opacity:1;}
    100%{left:100px; top:300px; opacity:0;}
+}
+
+.icon_links{
+   margin-left:4vw;
+   align-items: space-between;
+   padding-bottom:10vh;
 }
 }
  
