@@ -145,6 +145,11 @@ import './media/Swim_App_affinity_diagram_7.png'
 import './media/Swim_App_journey_map.png'
 import './media/Swim_Flow_Diagram.png'
 
+import './media/swim_app_interaction_1.jpg'
+import './media/swim_app_interaction_2.jpg'
+import './media/swim_app_interaction_3.jpg'
+import './media/swim_app_interaction_4.jpg'
+
 import './media/Swim_App_Comp_Bench.pdf'
 
 
