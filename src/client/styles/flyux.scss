@@ -299,6 +299,11 @@ img{
 
 @media(max-width:599px){
 
+    .flyux_proto{
+        width:300px;
+        margin-left:5vw;
+    }
+
     //layout
     article{
         display:flex;
@@ -1586,6 +1591,19 @@ margin-bottom:5vh;
     width:600px;
     height:auto;
 }
+
+.fly_proto{
+   height: 70vh;
+}
+
+.instructions{
+    
+    font-size:20px;
+    margin-left:5vw;
+    margin-right:5vw;
+}
+
+
 
 
 

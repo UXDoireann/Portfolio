@@ -51,6 +51,8 @@ import './media/DHS_profile.png'
 import './media/swimmer.png'
 
 //FlyUX media
+import './media/instructions.png'
+
 import './media/flyux_header.jpg'
 import './media/flyux_footer.jpg'
 
